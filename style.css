@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300&display=swap');
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+https://colorhunt.co/
+#B8E1DD - Background Color
+#062925 - Logo Color & Fontawesome
+#3A9188 - Heading Colors
+#044A42 - Font Colors
+*/
+
+body {
+    background-color: #B8E1DD;
+    color: #044A42;
+}
+
+#logo {
+    color: #062925;
+}
