@@ -15,7 +15,10 @@ body {
     color: #044A42;
 }
 
+/* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
+
 header {
+    margin: 2.5% 0 2.5% 0;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: "logo navbar";
@@ -23,13 +26,32 @@ header {
 
 #logo {
     color: #062925;
+    font-size: 3rem;
     grid-area: logo;
+    text-align: center;
+    margin: 0;
 }
 
 #navbar {
-    color: #062925;
     grid-area: navbar;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 2% 0 0 0;
 }
+
+#navbar li {
+    display: inline;
+    font-size: 1.5rem;
+    padding: 0 2.5% 0 2.5%;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #062925;
+}
+
+/* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
 
 @media only screen and (max-width: 800px) {
     header {
