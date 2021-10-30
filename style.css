@@ -30,3 +30,14 @@ header {
     color: #062925;
     grid-area: navbar;
 }
+
+@media only screen and (max-width: 800px) {
+    header {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas: 
+        "logo"
+        "navbar";
+    } 
+
+}
