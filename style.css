@@ -51,6 +51,10 @@ header {
     color: #062925;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
 
 @media only screen and (max-width: 800px) {
