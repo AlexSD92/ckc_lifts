@@ -49,10 +49,17 @@ header {
 #navbar a {
     text-decoration: none;
     color: #062925;
+    padding: 5px 10px 5px 10px;
+    border-radius: 25px;
 }
 
 .active {
     text-decoration: underline;
+}
+
+#navbar a:hover {
+    color: #B8E1DD;
+    background-color: #062925;
 }
 
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
