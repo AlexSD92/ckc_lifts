@@ -43,13 +43,12 @@ header {
 #navbar li {
     display: inline;
     font-size: 1.5rem;
-    padding: 0 2.5% 0 2.5%;
 }
 
 #navbar a {
     text-decoration: none;
     color: #062925;
-    padding: 5px 10px 5px 10px;
+    padding: 1% 2.5% 1% 2.5%;
     border-radius: 25px;
 }
 
