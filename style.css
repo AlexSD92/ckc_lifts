@@ -15,6 +15,18 @@ body {
     color: #044A42;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "logo navbar";
+}
+
 #logo {
     color: #062925;
+    grid-area: logo;
+}
+
+#navbar {
+    color: #062925;
+    grid-area: navbar;
 }
