@@ -72,22 +72,14 @@ header {
 
 footer {
     margin: 2.5% 0;
-}
-
-#socials {
-    list-style: none;
-    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
     text-align: center;
 }
 
-#socials li {
-    display: inline;
-}
-
-#socials a {
+footer a {
     color: #062925;
     font-size: 3rem;
-    padding: 0 7.5%;
 }
 
 /* ↑↑↑ FOOTER ↑↑↑ */
@@ -102,10 +94,6 @@ footer {
         grid-template-areas: 
         "logo"
         "navbar";
-    }
-
-    #socials a {
-        padding: 0 3.5%;
     }
     
 }
