@@ -94,8 +94,7 @@ header {
 
 #aboutusp {
     grid-area: aboutusp
-}
-    
+}    
 
 #find {
     grid-area: find;
@@ -165,6 +164,24 @@ footer a {
         grid-template-areas: 
         "logo"
         "navbar";
+    }
+
+    #landingpage {
+        display: grid;
+        grid-template-columns: 3.5% 93% 3.5%;
+        grid-template-rows: auto auto auto 5% auto auto auto 5% auto auto auto;
+        grid-template-areas: 
+        ". aboutus ."
+        ". aboutusp ."
+        ". heavysquat ."
+        ". . ."
+        ". whoweare ."
+        ". whowearep ."
+        ". pistolsquat ."
+        ". . ."
+        ". find ."
+        ". findp ."
+        ". frontsquat ."
     }
     
 }
