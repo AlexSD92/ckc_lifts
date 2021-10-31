@@ -15,6 +15,11 @@ body {
     color: #044A42;
 }
 
+h2 {
+    color: #3A9188;
+    font-size: 3rem;
+}
+
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
 header {
@@ -67,6 +72,45 @@ header {
 }
 
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
+
+/* ↓↓↓ LANDING PAGE STYLING ↓↓↓ */
+
+#landingpage {
+    display: grid;
+    grid-template-columns: 5% 30% 30% 30% 5%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    ". aboutus . whoweare ."
+    ". aboutusp . whowearep ."
+    ". . find . ."
+    ". . findp . .";
+}
+
+#aboutus {
+    grid-area: aboutus;
+}
+
+#aboutusp {
+    grid-area: aboutusp;
+}
+
+#find {
+    grid-area: find;
+}
+
+#findp {
+    grid-area: findp;
+}
+
+#whoweare {
+    grid-area: whoweare;
+}
+
+#whowearep {
+    grid-area: whowearep;
+}
+
+/* ↑↑↑ LANDING PAGE STYLING ↑↑↑ */
 
 /* ↓↓↓ FOOTER ↓↓↓ */
 
