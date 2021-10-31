@@ -78,7 +78,7 @@ header {
 #landingpage {
     display: grid;
     grid-template-columns: 5% 30% 30% 30% 5%;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: 200px 200px 200px 200px;
     grid-template-areas: 
     ". aboutus heavysquat whoweare ."
     ". aboutusp heavysquat whowearep ."
@@ -112,23 +112,26 @@ header {
 
 #frontsquat {
     grid-area: frontsquat;
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     margin: auto;
+    border-radius: 50px;
 }
 
 #heavysquat {
     grid-area: heavysquat;
-    width: 60%;
+    max-width: 90%;
     height: auto;
     margin: auto;
+    border-radius: 50px;
 }
 
 #pistolsquat {
     grid-area: pistolsquat;
-    max-width: 60%;
+    max-width: 90%;
     height: auto;
     margin: auto;
+    border-radius: 50px;
 }
 
 /* ↑↑↑ LANDING PAGE STYLING ↑↑↑ */
