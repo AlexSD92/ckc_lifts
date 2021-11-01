@@ -311,6 +311,10 @@ footer a {
         ". contact ."
         ". signup .";
     }
+
+    #gallery {
+        height: 1300px;
+    }
     
 }
 
