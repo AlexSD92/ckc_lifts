@@ -193,7 +193,11 @@ footer a {
     }
 
     #navbar li {
-        font-size: .75rem;
+        font-size: 1rem;
+    }
+
+    #navbar a {
+        padding: .5% 1% .5% 1%;
     }
 
     #landingpage {
