@@ -178,7 +178,7 @@ footer a {
 
 /* ↓↓↓ MEDIA QUERIES ↓↓↓ */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {}
 
     header {
         display: grid;
@@ -186,6 +186,14 @@ footer a {
         grid-template-areas: 
         "logo"
         "navbar";
+    }
+
+    #logo {
+        font-size: 3.25rem;
+    }
+
+    #navbar li {
+        font-size: .75rem;
     }
 
     #landingpage {
