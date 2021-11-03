@@ -333,6 +333,7 @@ footer a {
     grid-template-columns: 3.5% 46.5% 46.5% 3.5%;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     height: 2000px;
+    grid-gap: 0px; 
     grid-template-areas: 
     ". fundamental . ."
     ". fundamentalp . ."
@@ -483,6 +484,31 @@ footer a {
         ". plan3 ."
         ". plan3p ."
         ". plan3pp ."
+        ;
+    }
+
+    #squatinfo {
+        display: grid;
+        grid-template-columns: 3.5% 93% 3.5%;
+        grid-template-rows: auto auto auto auto auto auto auto auto
+                            auto auto auto auto auto auto auto auto;
+        height: 4000px;
+        grid-gap: 0px; 
+        grid-template-areas: 
+        ". fundamental ."
+        ". fundamentalp ."
+        ". history ."
+        ". historyp ."
+        ". ckc ."
+        ". ckcp ."
+        ". health ."
+        ". healthp ."
+        ". sport ."
+        ". sportp ."
+        ". proper ."
+        ". properp ."
+        ". vary ."
+        ". varyp ."
         ;
     }
     
