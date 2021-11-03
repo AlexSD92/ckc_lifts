@@ -165,6 +165,7 @@ header {
     color: #062925;
     font-size: 3rem;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 #plan {
@@ -379,6 +380,27 @@ footer a {
 
     #gallery {
         height: 1300px;
+    }
+
+    #plan {
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 100px 100px 100px 75px 100px 100px 100px 75px
+                            100px 100px 100px 75px 100px 100px 100px;
+        row-gap: 0;
+        grid-template-areas: 
+        ". plan1 ."
+        ". plan1p ."
+        ". plan1pp ."
+        ". . ."
+        ". plan2 ."
+        ". plan2p ."
+        ". plan2pp ."
+        ". . ."
+        ". plan3 ."
+        ". plan3p ."
+        ". plan3pp ."
+        ;
     }
     
 }
