@@ -161,6 +161,12 @@ header {
 
 /* ↓↓↓ PLANS ↓↓↓ */
 
+#ourplans {
+    color: #062925;
+    font-size: 3rem;
+    text-align: center;
+}
+
 #plan {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
