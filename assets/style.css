@@ -164,7 +164,38 @@ header {
 #plan {
     display: grid;
     grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-areas: 
+    ". plan1 . ."
+    ". plan1p . ."
+    ". plan2 . ."
+    ". plan2p . ."
+    ". plan3 . ."
+    ". plan3p . .";
+}
+
+#plan1 {
+    grid-area: plan1;
+}
+
+#plan1p {
+    grid-area: plan1p;
+}
+
+#plan2 {
+    grid-area: plan2;
+}
+
+#plan2p {
+    grid-area: plan2p;
+}
+
+#plan3 {
+    grid-area: plan3;
+}
+
+#plan3p {
+    grid-area: plan3p;
 }
 
 /* ↑↑↑ PLANS ↑↑↑ */
