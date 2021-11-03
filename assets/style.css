@@ -217,6 +217,11 @@ header {
     grid-area: plan3pp;
 }
 
+.price {
+    margin: auto;
+    font-size: 2rem;
+}
+
 /* ↑↑↑ PLANS ↑↑↑ */
 
 /* ↓↓↓ GALLERY FORMATTING ↓↓↓ */
