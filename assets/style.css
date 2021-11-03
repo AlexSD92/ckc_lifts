@@ -326,6 +326,88 @@ footer a {
 
 /* ↑↑↑ FOOTER ↑↑↑ */
 
+/* ↓↓↓ SQUAT INFORMATION ↓↓↓ */
+
+#squatinfo {
+    display: grid;
+    grid-template-columns: 3.5% 46.5% 46.5% 3.5%;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    ". fundamental . ."
+    ". fundamentalp . ."
+    ". . history ."
+    ". . historyp ."
+    ". ckc . ."
+    ". ckcp . ."
+    ". . health ."
+    ". . healthp ."
+    ". sport . ."
+    ". sportp . ."
+    ". . proper ."
+    ". . properp ."
+    ". vary . ."
+    ". varyp . ."
+    ;
+}
+
+#fundamental {
+    grid-area: fundamental;
+}
+
+#fundamentalp {
+    grid-area: fundamentalp;
+}
+
+#history {
+    grid-area: history;
+}
+
+#historyp {
+    grid-area: historyp;
+}
+
+#ckc {
+    grid-area: ckc;
+}
+
+#ckcp {
+    grid-area: ckcp;
+}
+
+#health {
+    grid-area: health;
+}
+
+#healthp {
+    grid-area: healthp;
+}
+
+#sport {
+    grid-area: sport;
+}
+
+#sportp {
+    grid-area: sportp;
+}
+
+#proper {
+    grid-area: proper;
+}
+
+#properp {
+    grid-area: properp;
+}
+
+#vary {
+    grid-area: vary;
+}
+
+#varyp {
+    grid-area: varyp;
+}
+
+/* ↑↑↑ SQUAT INFORMATION ↑↑↑ */
+
 /* ↓↓↓ MEDIA QUERIES ↓↓↓ */
 
 @media only screen and (max-width: 1000px) {
