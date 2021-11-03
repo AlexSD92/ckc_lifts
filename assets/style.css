@@ -159,6 +159,16 @@ header {
 
 /* ↑↑↑ FORMS ↑↑↑ */
 
+/* ↓↓↓ PLANS ↓↓↓ */
+
+#plan {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+
+/* ↑↑↑ PLANS ↑↑↑ */
+
 /* ↓↓↓ GALLERY FORMATTING ↓↓↓ */
 
 #gallery {
