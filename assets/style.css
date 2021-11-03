@@ -172,12 +172,13 @@ header {
     grid-template-columns: 20% 30% 30% 20%;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
     grid-template-areas: 
-    ". plan1 . ."
-    ". plan1p . ."
-    ". plan2 . ."
-    ". plan2p . ."
-    ". plan3 . ."
-    ". plan3p . .";
+    ". plan1 plan1pp ."
+    ". plan1p plan1pp ."
+    ". plan2 plan2pp ."
+    ". plan2p plan2pp ."
+    ". plan3 plan3pp ."
+    ". plan3p plan3pp ."
+    ;
 }
 
 #plan1 {
@@ -188,6 +189,10 @@ header {
     grid-area: plan1p;
 }
 
+#plan1pp {
+    grid-area: plan1pp;
+}
+
 #plan2 {
     grid-area: plan2;
 }
@@ -196,12 +201,20 @@ header {
     grid-area: plan2p;
 }
 
+#plan2pp {
+    grid-area: plan2pp;
+}
+
 #plan3 {
     grid-area: plan3;
 }
 
 #plan3p {
     grid-area: plan3p;
+}
+
+#plan3pp {
+    grid-area: plan3pp;
 }
 
 /* ↑↑↑ PLANS ↑↑↑ */
