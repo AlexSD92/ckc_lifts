@@ -171,15 +171,17 @@ header {
 
 #plan {
     display: grid;
-    grid-template-columns: 20% 30% 30% 20%;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 17.5% 30% 5% 30% 17.5%;
+    grid-template-rows: 100px 100px 50px 100px 100px 50px 100px 100px;
     grid-template-areas: 
-    ". plan1 plan1pp ."
-    ". plan1p plan1pp ."
-    ". plan2 plan2pp ."
-    ". plan2p plan2pp ."
-    ". plan3 plan3pp ."
-    ". plan3p plan3pp ."
+    ". plan1 . plan1pp ."
+    ". plan1p . plan1pp ."
+    ". . . . ."
+    ". plan2 . plan2pp ."
+    ". plan2p . plan2pp ."
+    ". . . . ."
+    ". plan3 . plan3pp ."
+    ". plan3p . plan3pp ."
     ;
 }
 
