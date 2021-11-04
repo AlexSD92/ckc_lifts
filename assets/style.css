@@ -4,20 +4,21 @@
 font-family: 'Open Sans', sans-serif;
 
 https://colorhunt.co/
-#B8E1DD - Background Color
-#062925 - Logo Color & Fontawesome
-#3A9188 - Heading Colors
-#044A42 - Font Colors
+#EEEBDD - Background Color
+#630000 - Logo Color & Fontawesome
+#630000 - Heading Colors
+#D8B6A4 - Section Colors
+#000000 - Font Colors
 */
 
 body {
-    background-color: #B8E1DD;
-    color: #044A42;
+    background-color: #EEEBDD;
+    color: #000000;
     margin: 0;
 }
 
 h2 {
-    color: #3A9188;
+    color: #630000;
     font-size: 2.5rem;
     margin: auto 0 0 0;
 }
@@ -32,7 +33,7 @@ header {
 }
 
 #logo {
-    color: #062925;
+    color: #630000;
     font-size: 3.75rem;
     grid-area: logo;
     text-align: center;
@@ -59,7 +60,7 @@ header {
 
 #navbar a {
     text-decoration: none;
-    color: #062925;
+    color: #630000;
     padding: 1% 2.5% 1% 2.5%;
     border-radius: 25px;
 }
@@ -69,8 +70,8 @@ header {
 }
 
 #navbar a:hover {
-    color: #B8E1DD;
-    background-color: #062925;
+    color: #D8B6A4;
+    background-color: #630000;
 }
 
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
@@ -163,7 +164,7 @@ header {
 /* ↓↓↓ PLANS ↓↓↓ */
 
 #ourplans {
-    color: #062925;
+    color: #630000;
     font-size: 3rem;
     text-align: center;
     margin-bottom: 75px;
@@ -322,7 +323,7 @@ footer {
 }
 
 footer a {
-    color: #062925;
+    color: #630000;
     font-size: 3rem;
 }
 
