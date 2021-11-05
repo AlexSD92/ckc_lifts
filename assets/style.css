@@ -49,13 +49,13 @@ header {
     grid-area: navbar;
     list-style: none;
     text-align: center;
-    margin: 0;
-    padding: 2.5% 0 0 0;
+    margin-top: 4%;
 }
 
 #navbar li {
     display: inline;
     font-size: 1.25rem;
+
 }
 
 #navbar a {
