@@ -4,20 +4,20 @@
 font-family: 'Open Sans', sans-serif;
 
 https://colorhunt.co/
-#EEEBDD - Background Color
-#630000 - Logo Color & Fontawesome
-#630000 - Heading Colors
-#D8B6A4 - Section Colors
-#000000 - Font Colors
+#FFF5FD - Background Color
+#005A8D - Logo Color & Fontawesome
+#005A8D - Heading Colors
+#93B5C6 - Section Colors & Card Colors
+#022E57 - Font Colors
 */
 
 body {
-    background-color: #EEEBDD;
-    color: #000000;
+    background-color: #EEEEEE;
+    color: #022E57;
 }
 
 h2 {
-    color: #630000;
+    color: #005A8D;
     font-size: 2.5rem;
     margin: auto 0 0 0;
 }
@@ -25,14 +25,18 @@ h2 {
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
 header {
-    margin: 2.5% 0 5% 0;
+    background-color: #93B5C6;
+    padding: 2% 0;
+    border-radius: 25px;
+    margin: 1% 0 5% 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
     grid-template-areas: "logo navbar";
 }
 
 #logo {
-    color: #630000;
+    color: #005A8D;
     font-size: 4.5rem;
     grid-area: logo;
     text-align: center;
@@ -61,7 +65,7 @@ header {
 
 #navbar a {
     text-decoration: none;
-    color: #630000;
+    color: #005A8D;
     padding: 1% 2.5% 1% 2.5%;
     border-radius: 25px;
 }
@@ -71,8 +75,8 @@ header {
 }
 
 #navbar a:hover {
-    color: #D8B6A4;
-    background-color: #630000;
+    color: #93B5C6;
+    background-color: #005A8D;
 }
 
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
@@ -190,8 +194,7 @@ header {
 
 #plan1 {
     grid-area: plan1;
-    border-style: solid;
-    border-color: black;
+    background-color: #93B5C6;
     width: 20vw;
     height: 30vw;
     border-width: 5px;
@@ -202,8 +205,7 @@ header {
 
 #plan2 {
     grid-area: plan2;
-    border-style: solid;
-    border-color: black;
+    background-color: #93B5C6;
     width: 20vw;
     height: 30vw;
     border-width: 5px;
@@ -214,8 +216,7 @@ header {
 
 #plan3 {
     grid-area: plan3;
-    border-style: solid;
-    border-color: black;
+    background-color: #93B5C6;
     width: 20vw;
     height: 30vw;
     border-width: 5px;
@@ -345,15 +346,20 @@ header {
 /* ↓↓↓ FOOTER ↓↓↓ */
 
 footer {
-    margin: 5% 0 5% 0;
+    background-color: #93B5C6;
+    margin: 5% 0 1% 0;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: auto;
     text-align: center;
+    padding: 2% 0;
+    border-radius: 25px;
 }
 
 footer a {
-    color: #630000;
+    color: #005A8D;
     font-size: 4rem;
+    margin-top: 2%;
 }
 
 /* ↑↑↑ FOOTER ↑↑↑ */
