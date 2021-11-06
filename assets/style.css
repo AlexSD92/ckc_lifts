@@ -152,6 +152,11 @@ header {
     grid-template-areas: ". contact . signup .";
 }
 
+.contactform {
+    font-size: 2.5rem;
+    color: #630000;
+}
+
 #contact {
     grid-area: contact;
 }
