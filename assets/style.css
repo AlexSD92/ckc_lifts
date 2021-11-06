@@ -85,6 +85,7 @@ header {
     margin: 0 0 5% 0;
     grid-template-columns: 3.5vw repeat(3, 1fr) 3.5vw;
     grid-template-rows: auto auto 5vw auto auto;
+    height: fit-content;
     grid-template-areas: 
     ". aboutus heavysquat whoweare ."
     ". aboutusp heavysquat whowearep ."
@@ -148,6 +149,8 @@ header {
 #forms {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    height: fit-content;
     grid-template-areas: ". contact . signup .";
 }
 
@@ -178,6 +181,8 @@ header {
 #plan {
     display: grid;
     grid-template-columns: 17.5vw 30vw 5vw 30vw 17.5vw;
+    grid-template-rows: auto;
+    height: fit-content;
     grid-template-areas: 
     ". plan1 . plan1pp ."
     ". plan1p . plan1pp ."
@@ -240,6 +245,8 @@ header {
     display: grid;
     /* height: 6000px; */
     grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
+    grid-template-rows: auto;
+    height: fit-content;
     grid-template-areas:
     ". img1 img2 ."
     ". img1 . ."
@@ -337,6 +344,8 @@ footer a {
 #squatinfo {
     display: grid;
     grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
+    grid-template-rows: auto;
+    height: fit-content;
     grid-gap: 0px; 
     grid-template-areas: 
     ". fundamental . ."
@@ -463,16 +472,18 @@ footer a {
     #forms {
         display: grid;
         grid-template-columns: 15vw 1fr 15vw;
+        grid-template-rows: auto;
+        height: fit-content;
         grid-template-areas: 
         ". contact ."
-        ". . ."
         ". signup .";
     }
 
     #gallery {
         display: grid;
-        height: 4000px;
         grid-template-columns: 3.5vw 1fr 3.5vw;
+        grid-template-rows: auto;
+        height: fit-content;
         grid-template-areas:
         ". img1 ."
         ". img2 ."
@@ -489,16 +500,16 @@ footer a {
     #plan {
         display: grid;
         grid-template-columns: 3.5vw 1fr 3.5vw;
+        grid-template-rows: auto;
+        height: fit-content;
         row-gap: 0;
         grid-template-areas: 
         ". plan1 ."
         ". plan1p ."
         ". plan1pp ."
-        ". . ."
         ". plan2 ."
         ". plan2p ."
         ". plan2pp ."
-        ". . ."
         ". plan3 ."
         ". plan3p ."
         ". plan3pp ."
@@ -512,8 +523,8 @@ footer a {
     #squatinfo {
         display: grid;
         grid-template-columns: 3.5vw 1fr 3.5vw;
-        height: 4000px;
-        grid-gap: 0px; 
+        grid-template-rows: auto;
+        height: fit-content;
         grid-template-areas: 
         ". fundamental ."
         ". fundamentalp ."
