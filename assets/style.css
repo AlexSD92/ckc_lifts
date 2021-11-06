@@ -498,15 +498,13 @@ footer a {
         row-gap: 0;
         grid-template-areas: 
         ". plan1 ."
-        ". plan1p ."
-        ". plan1pp ."
         ". plan2 ."
-        ". plan2p ."
-        ". plan2pp ."
         ". plan3 ."
-        ". plan3p ."
-        ". plan3pp ."
         ;
+    }
+
+    #plan2, #plan3 {
+        margin-top: 5vw;
     }
 
     .plan {
