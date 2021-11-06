@@ -180,62 +180,55 @@ header {
 
 #plan {
     display: grid;
-    grid-template-columns: 17.5vw 30vw 5vw 30vw 17.5vw;
+    grid-template-columns: 3.5vw repeat(3, 1fr) 3.5vw;
     grid-template-rows: auto;
     height: fit-content;
     grid-template-areas: 
-    ". plan1 . plan1pp ."
-    ". plan1p . plan1pp ."
-    ". . . . ."
-    ". plan2 . plan2pp ."
-    ". plan2p . plan2pp ."
-    ". . . . ."
-    ". plan3 . plan3pp ."
-    ". plan3p . plan3pp ."
+    ". plan1 plan2 plan3 ."
     ;
 }
 
 #plan1 {
     grid-area: plan1;
-}
-
-#plan1p {
-    grid-area: plan1p;
-}
-
-#plan1pp {
-    grid-area: plan1pp;
+    border-style: solid;
+    border-color: black;
+    width: 20vw;
+    height: 30vw;
+    border-width: 5px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 1vw;
 }
 
 #plan2 {
     grid-area: plan2;
-}
-
-#plan2p {
-    grid-area: plan2p;
-}
-
-#plan2pp {
-    grid-area: plan2pp;
+    border-style: solid;
+    border-color: black;
+    width: 20vw;
+    height: 30vw;
+    border-width: 5px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 1vw;
 }
 
 #plan3 {
     grid-area: plan3;
+    border-style: solid;
+    border-color: black;
+    width: 20vw;
+    height: 30vw;
+    border-width: 5px;
+    border-radius: 25px;
+    margin: auto;
+    padding: 1vw;
 }
 
-#plan3p {
-    grid-area: plan3p;
-}
-
-#plan3pp {
-    grid-area: plan3pp;
-}
-
-.price {
+/* .price {
     margin: auto;
     font-size: 2rem;
     text-align: center;
-}
+} */
 
 /* ↑↑↑ PLANS ↑↑↑ */
 
