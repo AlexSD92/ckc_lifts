@@ -234,7 +234,7 @@ header {
 
 /* ↓↓↓ GALLERY FORMATTING ↓↓↓ */
 
-#gallery {
+/* #gallery {
     display: grid;
     grid-template-columns: 3.5 repeat(6, 1fr);
     grid-template-rows: auto;
@@ -244,6 +244,10 @@ header {
     ". img6 img6 img2 img4 img3 img3 ."
     " . img7 img7 . . . . ."
     ;
+} */
+
+#gallery {
+    padding: 0 3.5vw;
 }
 
 #img1 {
@@ -251,7 +255,7 @@ header {
     max-width: 100%; 
     max-height: auto;  
     height: 20vw;
-    margin-bottom: 3.5vw;
+    margin: 0 2% 2% 0;
     border-radius: 25px;
 }
 
@@ -260,7 +264,7 @@ header {
     max-width: 100%; 
     max-height: auto;
     height: 20vw;    
-    margin-bottom: 3.5vw; 
+    margin: 0 2% 2% 0;
     border-radius: 25px;   
 }
 
@@ -268,8 +272,8 @@ header {
     grid-area: img3;
     max-width: 100%; 
     max-height: auto;
-    height: 20vw;  
-    margin-bottom: 3.5vw;    
+    height: 20vw;     
+    margin: 0 2% 2% 0;
     border-radius: 25px;  
 }
 
@@ -278,7 +282,7 @@ header {
     max-width: 100%; 
     max-height: auto; 
     height: 20vw;   
-    margin-bottom: 3.5vw;  
+    margin: 0 2% 2% 0;
     border-radius: 25px;  
 }
 
@@ -287,7 +291,7 @@ header {
     max-width: 100%; 
     max-height: auto; 
     height: 20vw; 
-    margin-bottom: 3.5vw;  
+    margin: 0 2% 2% 0;
     border-radius: 25px;    
 }
 
@@ -295,8 +299,8 @@ header {
     grid-area: img6;
     max-width: 100%; 
     max-height: auto; 
-    height: 20vw; 
-    margin-bottom: 3.5vw;  
+    height: 20vw;  
+    margin: 0 2% 2% 0;
     border-radius: 25px;    
 }
 
@@ -304,8 +308,8 @@ header {
     grid-area: img7;
     max-width: 100%; 
     max-height: auto; 
-    height: 20vw;   
-    margin-bottom: 3.5vw;  
+    height: 20vw;  
+    margin: 0 2% 2% 0; 
     border-radius: 25px;  
 }
 
@@ -314,7 +318,7 @@ header {
     max-width: 100%; 
     max-height: auto;  
     height: 20vw; 
-    margin-bottom: 3.5vw;  
+    margin: 0 2% 2% 0;
     border-radius: 25px; 
 }
 
@@ -322,8 +326,8 @@ header {
     grid-area: img9; 
     max-width: 100%; 
     max-height: auto;
-    height: 20vw;  
-    margin-bottom: 3.5vw;   
+    height: 20vw;   
+    margin: 0 2% 2% 0;
     border-radius: 25px;  
 }
 
