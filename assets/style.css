@@ -236,73 +236,95 @@ header {
 
 #gallery {
     display: grid;
-    /* height: 6000px; */
-    grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
+    grid-template-columns: 3.5 repeat(6, 1fr);
     grid-template-rows: auto;
     height: fit-content;
-    grid-template-areas:
-    ". img1 img2 ."
-    ". img1 . ."
-    ". img3 img4 ."
-    ". img8 img4 ."
-    ". img5 img9 ."
-    ". img6 img9 ."
-    ". . img7 ."
+    grid-template-areas: 
+    ". img1 img5 img5 img8 img9 . ."
+    ". img6 img6 img2 img4 img3 img3 ."
+    " . img7 img7 . . . . ."
     ;
 }
 
 #img1 {
     grid-area: img1;
     max-width: 100%; 
-    max-height: auto;   
+    max-height: auto;  
+    height: 20vw;
+    margin-bottom: 3.5vw;
+    border-radius: 25px;
 }
 
 #img2 {
     grid-area: img2;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto;
+    height: 20vw;    
+    margin-bottom: 3.5vw; 
+    border-radius: 25px;   
 }
 
 #img3 {
     grid-area: img3;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto;
+    height: 20vw;  
+    margin-bottom: 3.5vw;    
+    border-radius: 25px;  
 }
 
 #img4 {
     grid-area: img4;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto; 
+    height: 20vw;   
+    margin-bottom: 3.5vw;  
+    border-radius: 25px;  
 }
 
 #img5 {
     grid-area: img5;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto; 
+    height: 20vw; 
+    margin-bottom: 3.5vw;  
+    border-radius: 25px;    
 }
 
 #img6 {
     grid-area: img6;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto; 
+    height: 20vw; 
+    margin-bottom: 3.5vw;  
+    border-radius: 25px;    
 }
 
 #img7 {
     grid-area: img7;
     max-width: 100%; 
-    max-height: auto;        
+    max-height: auto; 
+    height: 20vw;   
+    margin-bottom: 3.5vw;  
+    border-radius: 25px;  
 }
 
 #img8 {
     grid-area: img8;  
     max-width: 100%; 
-    max-height: auto;      
+    max-height: auto;  
+    height: 20vw; 
+    margin-bottom: 3.5vw;  
+    border-radius: 25px; 
 }
 
 #img9 {
     grid-area: img9; 
     max-width: 100%; 
-    max-height: auto;       
+    max-height: auto;
+    height: 20vw;  
+    margin-bottom: 3.5vw;   
+    border-radius: 25px;  
 }
 
 /* ↑↑↑ GALLERY FORMATTING ↑↑↑ */
