@@ -20,7 +20,7 @@ body {
 h2 {
     color: #008c93;
     font-size: 2.5rem;
-    margin: auto 0 0 0;
+    margin: 0 0 0 0;
 }
 
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
@@ -119,39 +119,25 @@ header {
     margin: 0 0 50px 0;
     grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
     grid-template-rows: auto;
-    row-gap: 50px;
+    row-gap: 3.5vw;
     height: fit-content;
     grid-template-areas: 
     ". aboutus heavysquat ."
-    ". aboutusp heavysquat ."
     ". pistolsquat whoweare ."
-    ". pistolsquat whowearep ."
     ". find frontsquat ."
-    ". findp frontsquat ."
+    ;
 }
 
-#aboutus {
+.aboutus {
     grid-area: aboutus;
 }
 
-#aboutusp {
-    grid-area: aboutusp
-}    
-
-#find {
+.find {
     grid-area: find;
 }
 
-#findp {
-    grid-area: findp;
-}
-
-#whoweare {
+.whoweare {
     grid-area: whoweare;
-}
-
-#whowearep {
-    grid-area: whowearep;
 }
 
 #frontsquat {
@@ -176,6 +162,10 @@ header {
     height: auto;
     margin: auto;
     border-radius: 50px;
+}
+
+#interest {
+    text-align: center;
 }
 
 /* ↑↑↑ LANDING PAGE STYLING ↑↑↑ */
@@ -405,7 +395,7 @@ header {
 /* ↓↓↓ FOOTER ↓↓↓ */
 
 footer {
-    background-color: #93B5C6;
+    background-color: #008c93;
     margin: 0;
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -415,7 +405,7 @@ footer {
 }
 
 footer a {
-    color: #005A8D;
+    color: whitesmoke;
     font-size: 4rem;
     margin-top: 2%;
 }
@@ -511,15 +501,39 @@ footer a {
 @media only screen and (max-width: 1000px) {
 
     header {
+        height: 50vw; 
+        margin-bottom: 3.5vw;
+    }
+    
+    #logonavbar {
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-areas: 
+        grid-template-columns: 100vw;
+        grid-template-rows: auto;
+        grid-template-areas:
         "logo"
-        "navbar";
+        "navbar"
+        ;
+    }
+    
+    #tagline {
+        margin: auto;
+        padding: 1%;
+        width: fit-content;
+        background-color: rgb(201, 198, 198, 0.75);
+        border-radius: 25px;
+    }
+    
+    #tagline p {
+        font-size: 1rem;
+    }
+    
+    #tagline h2 {
+        font-size: 1rem;   ;
     }
 
     #logo {
         font-size: 3.25rem;
+        margin-bottom: 30px;
     }
 
     #navbar li {
@@ -534,6 +548,7 @@ footer a {
         display: grid;
         grid-template-columns: 3.5vw 1fr 3.5vw;
         grid-template-rows: auto;
+        row-gap: 0;
         height: fit-content;
         grid-template-areas: 
         ". aboutus ."
@@ -549,7 +564,7 @@ footer a {
     }
 
     .heading {
-        margin-top: 10vw;
+        margin-top: 5vw;
     }
 
     #forms {
