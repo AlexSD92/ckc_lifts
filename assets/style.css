@@ -175,6 +175,13 @@ header {
 
 /* ↓↓↓ PLANS ↓↓↓ */
 
+#backimage1 {
+    background-image: url("/assets/images/groupgym.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 25px;
+}
+
 #ourplans {
     color: #630000;
     font-size: 3rem;
