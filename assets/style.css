@@ -14,6 +14,7 @@ https://colorhunt.co/
 body {
     background-color: #EEEEEE;
     color: #022E57;
+    margin: 0;
 }
 
 h2 {
@@ -25,18 +26,45 @@ h2 {
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
 header {
-    background-color: #93B5C6;
+    background-image: url(/assets/images/groupgym2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
     padding: 2% 0;
-    border-radius: 25px;
-    margin: 1% 0 5% 0;
+
+}
+
+#logonavbar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "logo navbar";
+    grid-template-rows: 100px;
+    grid-template-areas:
+    "logo navbar"
+    ;
+}
+
+#tagline {
+    margin: 10% 0 0 15%;
+    width: fit-content;
+    background-color: rgb(201, 198, 198, 0.5);
+    border-radius: 25px;
+}
+
+#tagline p {
+    color: whitesmoke;
+    font-size: 2.5rem;
+    margin: 0;
+    padding-left: 50px;
+}
+
+#tagline h2 {
+    font-size: 3.5rem;
+    color: purple;
+    margin: 0;
 }
 
 #logo {
-    color: #005A8D;
+    color: whitesmoke;
     font-size: 4.5rem;
     grid-area: logo;
     text-align: center;
@@ -65,7 +93,7 @@ header {
 
 #navbar a {
     text-decoration: none;
-    color: #005A8D;
+    color: whitesmoke;
     padding: 1% 2.5% 1% 2.5%;
     border-radius: 25px;
 }
@@ -182,8 +210,6 @@ header {
     background-repeat: repeat;
     background-size: contain;
     border-radius: 25px;
-    /* position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0; */
 }
 
 #ourplans {
