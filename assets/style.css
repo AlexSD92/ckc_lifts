@@ -12,13 +12,13 @@ https://colorhunt.co/
 */
 
 body {
-    background-color: #EEEEEE;
-    color: #022E57;
+    background-color: lightgray;
+    color: black;
     margin: 0;
 }
 
 h2 {
-    color: #005A8D;
+    color: #008c93;
     font-size: 2.5rem;
     margin: auto 0 0 0;
 }
@@ -26,11 +26,12 @@ h2 {
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
 header {
-    background-image: url(/assets/images/groupgym2.jpg);
+    background-image: url(/assets/images/anticipate.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 1000px;
     padding: 2% 0;
+    margin-bottom: 50px;
 
 }
 
@@ -44,7 +45,7 @@ header {
 }
 
 #tagline {
-    margin: 10% 0 0 15%;
+    margin: 15% 0 0 20%;
     padding: 1%;
     width: fit-content;
     background-color: rgb(201, 198, 198, 0.75);
@@ -104,8 +105,8 @@ header {
 }
 
 #navbar a:hover {
-    color: #93B5C6;
-    background-color: #005A8D;
+    color: black;
+    background-color: whitesmoke;
 }
 
 /* ↑↑↑ LOGO AND NAVBAR ↑↑↑ */
@@ -115,16 +116,18 @@ header {
 #landingpage {
     display: grid;
     height: 750px;
-    margin: 0 0 5% 0;
-    grid-template-columns: 3.5vw repeat(3, 1fr) 3.5vw;
-    grid-template-rows: auto auto 5vw auto auto;
+    margin: 0 0 50px 0;
+    grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
+    grid-template-rows: auto;
+    row-gap: 50px;
     height: fit-content;
     grid-template-areas: 
-    ". aboutus heavysquat whoweare ."
-    ". aboutusp heavysquat whowearep ."
-    ". . . . ."
-    ". pistolsquat find frontsquat ."
-    ". pistolsquat findp frontsquat .";
+    ". aboutus heavysquat ."
+    ". aboutusp heavysquat ."
+    ". pistolsquat whoweare ."
+    ". pistolsquat whowearep ."
+    ". find frontsquat ."
+    ". findp frontsquat ."
 }
 
 #aboutus {
@@ -403,13 +406,12 @@ header {
 
 footer {
     background-color: #93B5C6;
-    margin: 5% 0 1% 0;
+    margin: 0;
     display: grid;
     grid-template-columns: repeat(5, auto);
     grid-template-rows: auto;
     text-align: center;
     padding: 2% 0;
-    border-radius: 25px;
 }
 
 footer a {
