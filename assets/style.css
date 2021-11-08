@@ -453,19 +453,20 @@ footer a {
 
 #squatinfo {
     display: grid;
-    grid-template-columns: 3.5vw repeat(2, 1fr) 3.5vw;
+    grid-template-columns: 3.5vw 1fr 3.5vw 1fr 3.5vw;
     grid-template-rows: auto;
     height: fit-content;
-    grid-gap: 0px; 
+    grid-row-gap: 3.5vw; 
     grid-template-areas: 
-    ". fundamental noweightsquat ."
-    ". triooutdoors history ."
-    ". ckc groupgym2 ."
-    ". outdoorrun health ."
-    ". outdoorrun sport ."
-    ". proper . ."
-    ". . vary ."
+    ". fundamental . noweightsquat ."
+    ". triooutdoors . history ."
+    ". ckc . groupgym2 ."
+    ". outdoorrun . health ."
+    ". outdoorrun . sport ."
+    ". proper . vidcontainer1 ."
+    ". vidcontainer2 . vary ."
     ;
+    margin-bottom: 3.5vw;
 }
 
 .fundamental {
@@ -500,24 +501,66 @@ footer a {
     grid-area: triooutdoors;
     max-width: 100%;
     height: auto;
+    border-radius: 25px;
 }
 
 #groupgym2 {
     grid-area: groupgym2;
     max-width: 100%;
     height: auto;
+    border-radius: 25px;
 }
 
 #outdoorrun {
     grid-area: outdoorrun;
     max-width: 100%;
-    height: ;
+    height: auto;
+    border-radius: 25px;
 }
 
 #noweightsquat {
     grid-area: noweightsquat;
     max-width: 100%;
     height: auto;
+    border-radius: 25px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+
+#vidcontainer1 {
+    grid-area: vidcontainer1;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#vidcontainer2 {
+    grid-area: vidcontainer2;
+    position: relative;
+    overflow: hidden;
+    width: 100%;   
+    border-radius: 25px; 
+}
+
+#squatvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#squatvar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;    
 }
 
 /* ↑↑↑ SQUAT INFORMATION ↑↑↑ */
@@ -649,20 +692,27 @@ footer a {
         height: fit-content;
         grid-template-areas: 
         ". fundamental ."
-        ". fundamentalp ."
+        ". noweightsquat ."
         ". history ."
-        ". historyp ."
+        ". triooutdoors ."
         ". ckc ."
-        ". ckcp ."
+        ". groupgym2 ."
         ". health ."
-        ". healthp ."
         ". sport ."
-        ". sportp ."
+        ". outdoorrun ."
         ". proper ."
-        ". properp ."
+        ". vidcontainer1 ."
         ". vary ."
-        ". varyp ."
+        ". vidcontainer2 ."
         ;
+    }
+
+    #vidcontainer1 {
+        height: 500px;        
+    }
+    
+    #vidcontainer2 {
+        height: 500px;
     }
     
 }
