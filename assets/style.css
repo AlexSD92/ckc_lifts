@@ -365,11 +365,32 @@ footer {
     background-color: #008c93;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
     text-align: center;
     padding: 2% 0;
 }
+
+/* #social1 {
+    grid-area: social1;
+}
+
+#social2 {
+    grid-area: social2;
+}
+
+#social3 {
+    grid-area: social3;
+}
+
+#social4 {
+    grid-area: social4;
+}
+
+#social5 {
+    grid-area: social5;
+} */
+
 
 footer a {
     color: whitesmoke;
