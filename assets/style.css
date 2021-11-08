@@ -458,77 +458,66 @@ footer a {
     height: fit-content;
     grid-gap: 0px; 
     grid-template-areas: 
-    ". fundamental . ."
-    ". fundamentalp . ."
-    ". . history ."
-    ". . historyp ."
-    ". ckc . ."
-    ". ckcp . ."
-    ". . health ."
-    ". . healthp ."
-    ". sport . ."
-    ". sportp . ."
-    ". . proper ."
-    ". . properp ."
-    ". vary . ."
-    ". varyp . ."
+    ". fundamental noweightsquat ."
+    ". triooutdoors history ."
+    ". ckc groupgym2 ."
+    ". outdoorrun health ."
+    ". outdoorrun sport ."
+    ". proper . ."
+    ". . vary ."
     ;
 }
 
-#fundamental {
+.fundamental {
     grid-area: fundamental;
 }
 
-#fundamentalp {
-    grid-area: fundamentalp;
-}
-
-#history {
+.history {
     grid-area: history;
 }
 
-#historyp {
-    grid-area: historyp;
-}
-
-#ckc {
+.ckc {
     grid-area: ckc;
 }
 
-#ckcp {
-    grid-area: ckcp;
-}
-
-#health {
+.health {
     grid-area: health;
 }
 
-#healthp {
-    grid-area: healthp;
-}
-
-#sport {
+.sport {
     grid-area: sport;
 }
 
-#sportp {
-    grid-area: sportp;
-}
-
-#proper {
+.proper {
     grid-area: proper;
 }
 
-#properp {
-    grid-area: properp;
-}
-
-#vary {
+.vary {
     grid-area: vary;
 }
 
-#varyp {
-    grid-area: varyp;
+#triooutdoors {
+    grid-area: triooutdoors;
+    max-width: 100%;
+    height: auto;
+}
+
+#groupgym2 {
+    grid-area: groupgym2;
+    max-width: 100%;
+    height: auto;
+}
+
+#outdoorrun {
+    grid-area: outdoorrun;
+    max-width: 100%;
+    height: ;
+}
+
+#noweightsquat {
+    grid-area: noweightsquat;
+    max-width: 100%;
+    height: auto;
 }
 
 /* ↑↑↑ SQUAT INFORMATION ↑↑↑ */
