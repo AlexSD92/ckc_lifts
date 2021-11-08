@@ -25,7 +25,7 @@ h2 {
 
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
-header {
+#normalheader {
     background-color: #008c93;
     height: auto;
     padding: 2% 0;
@@ -33,10 +33,11 @@ header {
 }
 
 #altheader {
-    background-image: url(/assets/images/anticipate.jpg);
+    background-image: url("/assets/images/anticipate.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 1000px;
+    background-position: top center;
+    background-size: auto;
+    height: 500px;
     padding: 2% 0;
     margin-bottom: 50px;
 }
@@ -304,11 +305,38 @@ header {
     ;
 } */
 
-#gallery {
-    padding: 0 3.5vw;
+/* #gallerycontainer {
+
+} */
+
+#brickcontainer {
+    background-image: url("/assets/images/brick.jpg");
+    background-repeat: none;
+    background-size: contain;
 }
 
-#img1 {
+/* Got the responsive gallery idea from 
+https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
+
+#gallerycontainer {
+    margin-bottom: 3.5vw;
+}
+
+#gallery {
+    padding: 0 1vw;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 1vw;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.5%;
+    border-radius: 25px;
+}
+
+/* #img1 {
     grid-area: img1;
     max-width: 100%; 
     max-height: auto;  
@@ -387,7 +415,7 @@ header {
     height: 20vw;   
     margin: 0 1% 1% 0;
     border-radius: 25px;  
-}
+} */
 
 /* ↑↑↑ GALLERY FORMATTING ↑↑↑ */
 
@@ -525,6 +553,7 @@ footer a {
     }
     
     #tagline {
+        visibility: hidden;
         margin: auto;
         padding: 1%;
         width: fit-content;
@@ -545,7 +574,6 @@ footer a {
 
     #logo {
         font-size: 3.25rem;
-        margin-bottom: 30px;
     }
 
     #navbar li {
@@ -580,6 +608,10 @@ footer a {
         grid-template-areas: 
         ". contact ."
         ". signup .";
+    }
+
+    #gallery {
+        column-count: 2;
     }
 
     /* #gallery {
