@@ -208,7 +208,7 @@ h2 {
 /* CSS CARD FORMATTING FROM https://www.w3schools.com/howto/howto_css_flip_card.asp */
 
 #backimage1 {
-    background-image: url("/assets/images/groupgym.jpg");
+    background-image: url("../assets/images/groupgym.jpg");
     background-repeat: repeat;
     background-size: contain;
     border-radius: 25px;
@@ -310,7 +310,7 @@ h2 {
 } */
 
 #brickcontainer {
-    background-image: url("/assets/images/brick.jpg");
+    background-image: url("../assets/images/brick.jpg");
     background-repeat: none;
     background-size: contain;
 }
