@@ -218,6 +218,8 @@ h2 {
     background-size: 100% auto;
 }
 
+/* how to format background image height https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
+
 #ourplans {
     color: #008c93;
     font-size: 4rem;
@@ -639,8 +641,8 @@ footer a {
     }
 
     .price {
-        width: 40vw;
-        height: 60vw;
+        width: 50vw;
+        height: 70vw;
         perspective: 1000px;
       }
 
