@@ -29,7 +29,7 @@ h2 {
     background-color: #008c93;
     height: auto;
     padding: 2% 0;
-    margin-bottom: 50px;
+    margin-bottom: 3.5vw;
 }
 
 #altheader {
@@ -195,6 +195,7 @@ h2 {
 .contactform {
     font-size: 2.5rem;
     color: #008c93;
+    margin-top: 0;
 }
 
 #contact {
