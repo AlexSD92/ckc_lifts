@@ -367,8 +367,9 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
+    column-gap: 15vw;
     text-align: center;
-    padding: 2% 0;
+    padding: 2%;
 }
 
 /* #social1 {
@@ -396,6 +397,7 @@ footer a {
     color: whitesmoke;
     font-size: 4rem;
     margin-top: 2%;
+    width: 50px;
 }
 
 /* ↑↑↑ FOOTER ↑↑↑ */
