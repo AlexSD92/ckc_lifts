@@ -61,12 +61,11 @@
                 <br><br>
                 <label for="contactcontact">Contact me by:</label>
                 <br>
-                <input type="radio" id="emcontact" name="contactmecontact" value="Emailcontact" required>
-                <label for="emcontact">Email</label>
-                <input type="radio" id="phcontact" name="contactmecontact" value="Phonecontact" required>
-                <label for="phcontact">Phone</label>
-                <input type="radio" id="btcontact" name="contactmecontact" value="Bothcontact" required>
-                <label for="phcontact">Both</label>
+                <fieldset>
+                    <label> <input type="radio" id="emcontact" name="contactmecontact" value="Emailcontact" required> Email </label>
+                    <label> <input type="radio" id="phcontact" name="contactmecontact" value="Phonecontact" required> Phone </label>
+                    <label> <input type="radio" id="btcontact" name="contactmecontact" value="Bothcontact" required> Both </label>
+                </fieldset>
                 <br><br>
                 <label for="querycontact">Your query:</label>
                 <br>
@@ -103,14 +102,15 @@
                 <br>
                 <small>Format: 01234567890</small>
                 <br><br>
-                <label for="">Contact me by:</label>
+                <!-- https://stackoverflow.com/questions/13273806/using-the-html-label-tag-with-radio-buttons -->
                 <br>
-                <input type="radio" id="em" name="contactme" value="Email" required>
-                <label for="em">Email</label>
-                <input type="radio" id="ph" name="contactme" value="Phone" required>
-                <label for="ph">Phone</label>
-                <input type="radio" id="bt" name="contactme" value="Both" required>
-                <label for="ph">Both</label>
+                <fieldset>
+                    <legend>Contact me by:</legend>
+                    <label> <input type="radio" id="em" name="contactme" value="Email" required> Email</label>
+                    <label> <input type="radio" id="ph" name="contactme" value="Phone" required> Phone </label>
+                    <label><input type="radio" id="bt" name="contactme" value="Both" required> Both </label>
+                </fieldset>
+
                 <br><br>
                 <label for="">How did you hear about us?</label>
                 <small>(optional)</small>
@@ -129,16 +129,14 @@
                 <input type="checkbox" id="wom" name="wom" value="Word of Mouth">
                 <label for="wom">Word of Mouth</label>
                 <br><br>
-                <label for="">Which plan would you like?</label>
-                <br>
-                <input type="radio" name="plan" id="3day" value="3 Day Plan" required>
-                <label for="3day">3 Days per week</label>
-                <br>
-                <input type="radio" name="plan" id="4day" value="4 Day Plan" required>
-                <label for="4day">4 Days per week</label>
-                <br>
-                <input type="radio" name="plan" id="5day" value="5 Day Plan" required>
-                <label for="5day">5 Days per week</label>
+                <fieldset>
+                    <legend>Which plan would you like?</legend>
+                    <label> <input type="radio" name="plan" id="3day" value="3 Day Plan" required> 3 Days per week </label>
+                    <br>
+                    <label> <input type="radio" name="plan" id="4day" value="4 Day Plan" required> 4 Days per week </label>
+                    <br>
+                    <label> <input type="radio" name="plan" id="5day" value="5 Day Plan" required> 5 Days per week </label>
+                </fieldset>
                 <br><br>
                 <input type="submit" value="Submit">
                 
