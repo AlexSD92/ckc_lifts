@@ -35,9 +35,8 @@ h2 {
 #altheader {
     background-image: url("/assets/images/anticipate.jpg");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: auto;
-    height: 500px;
+    background-size: 100% auto;
+    height: auto;
     padding: 2% 0;
     margin-bottom: 50px;
 }
@@ -57,7 +56,7 @@ h2 {
 }
 
 #tagline {
-    margin: 15% 0 0 20%;
+    margin: 15% 0 25% 20%;
     padding: 1%;
     width: fit-content;
     background-color: rgb(201, 198, 198, 0.75);
@@ -523,7 +522,8 @@ footer a {
 @media only screen and (max-width: 1000px) {
 
     #altheader {
-        height: fit-content; 
+        height: auto;
+        background-size: 100% auto;
         margin-bottom: 3.5vw;
     }
     
@@ -535,11 +535,11 @@ footer a {
         "logo"
         "navbar"
         ;
+        /* padding-bottom: 40%; */
     }
     
     #tagline {
-        visibility: hidden;
-        margin: auto;
+        /* visibility: hidden; */
         padding: 1%;
         width: fit-content;
         background-color: rgb(201, 198, 198, 0.75);
@@ -637,6 +637,12 @@ footer a {
     .plan {
         text-align: center;
     }
+
+    .price {
+        width: 40vw;
+        height: 60vw;
+        perspective: 1000px;
+      }
 
     #squatinfo {
         display: grid;
