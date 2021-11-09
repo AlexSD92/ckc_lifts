@@ -324,7 +324,7 @@ h2 {
 
 #brickcontainer {
     background-image: url("../assets/images/brick.jpg");
-    background-repeat: none;
+    background-repeat: repeat-y;
     background-size: contain;
 }
 
