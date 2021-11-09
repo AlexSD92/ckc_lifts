@@ -2,7 +2,7 @@
 
 #Table of contents
 
-1. [Why] (#Why)
+# 1. [Why] (#Why)
 
 # Why
 # User Experience (UX)
