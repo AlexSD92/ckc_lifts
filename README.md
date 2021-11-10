@@ -30,9 +30,23 @@ Mobile
     4. [Scope](#Scope)
     5. [Structure](#Structure)
     6. [Skeleton](#Skeleton)
+        1. [Wireframes](#Wireframes)
     7. [Surface](#Surface)
+        1. [Colors](#Colors)
+        2. [Typography](#Typography)
+        3. [Images & Icons](#Images-&-Icons)
 3. [Features](#Features)
+    1. [Current Features](#Current-Features)
+    2. [Future Features](#Future-Features)
 4. [Technologies](#Technologies)
+5. [Testing](#Testing)
+    1. [Tests](#Tests)
+    2. [Bugs & Fixes](#Bugs-&-Fixes)
+6. [Deployment](#Deployment)
+    1. [GitHub Pages](#GitHub Pages)
+    2. [Forking Repository](#GitHub Pages)
+    3. [Cloning the project](#GitHub Pages)
+7. [Credits](#Credits)
 
 
 # Why
@@ -163,36 +177,30 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 ### Colors
 
+The colors that are used for the site are shown below. 
+
+![Color pallet used for the design of this website.](/assets/images/colorpallet.PNG)
+
+https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5
+
 ### Typography
+
+Considering the goal of the site is to be informative, two fonts were pricked. 
+
+The original fonts used were Anton and Open Sans, however it was later decided to use. 
+
+https://fonts.google.com/specimen/Anton?query=anton
+https://fonts.google.com/specimen/Open+Sans?query=open+sans
 
 ### Images & Icons
 
-# Features
+Fontawesome icons were used for the footer of the site to direct users to social media pages. 
 
-## Current Features
+https://fontawesome.com/
 
-## Future Features
+Only stock images were used for the design of the site from https://unsplash.com/images/stock
 
-# Technologies
-
-## Languages
-
-- HTML5
-- CSS3
-
-## Other Technologies, Frameworks & Libraries
-
-- [Google Fonts](https://fonts.google.com/)
-  - Used for importing fonts, allowing for the fonts to be available for all users.
-- [Font Awesome](https://fontawesome.com/)
-  - Font Awesome provides all the icons used for the site.
-- [Git & GitBash](https://gitforwindows.org/)
-  - Git for Windows provides a BASH emulation which allows for git to be used straight from the command line.
-- [GitHub](https://github.com/)
-  - Provided a Remote repository for the application. Allowing for my coding to be backed up online as I go.
-- [Stack Overflow](https://stackoverflow.com/)
-  - For general Queries and reassurance.
-<!-- Images
+All image links below:
 
 https://unsplash.com/photos/7Li2duPduew
 https://unsplash.com/photos/3qZt1MwF4Zo
@@ -215,5 +223,95 @@ https://unsplash.com/photos/wy_L8W0zcpI
 https://unsplash.com/photos/fqMu99l8sqo
 https://unsplash.com/photos/Pnm-9vBEQhk
 https://unsplash.com/photos/FodEsaNZs48
-https://unsplash.com/photos/t4DuoDHjxrQ -->
+https://unsplash.com/photos/t4DuoDHjxrQ
+
+# Features
+
+## Current Features
+
+ - A landing page detailing who CKC Lifts are and who it is for.
+ - An image gallery showing images of the gym.
+ - An information section with images talking about squats and how to perform them.
+ - Embedded videos demonstrating how to squat and squat varieties. 
+ - A plan/membership section where users can view the plans on flip cards, what experience level they are for, and how much the monthly memberships are.
+ - A header containing a consistent logo and navigation bar that are responsive. 
+ - A footer containing consistent favicons that will hyperlink users to social media on a new tab. 
+ - Functioning internal links.
+ - High quality, resolved images.
+
+## Future Features
+
+- A testimonial page. 
+- A discussions page.
+- A live board detailing the time and location of our community socials.
+
+# Technologies
+
+## Languages
+
+- HTML5
+- CSS3
+
+## Other Technologies, Frameworks & Libraries
+
+- [Google Fonts](https://fonts.google.com/)
+    - Used for importing fonts, allowing for the fonts to be available for all users.
+- [Font Awesome](https://fontawesome.com/)
+    - Font Awesome provides all the icons used for the site.
+- [Git & GitBash](https://gitforwindows.org/)
+    - Git for Windows provides a BASH emulation which allows for git to be used straight from the command line.
+- [GitHub](https://github.com/)
+    - Provided a Remote repository for the application. Allowing for my coding to be backed up online as I go.
+- [Gitpod](https://gitpod.io/)
+    -Development environment used to develop the code for this project.
+- [Stack Overflow](https://stackoverflow.com/)
+    - For general Queries and reassurance.
+- [Colorhunt](https://colorhunt.co/)
+    - To select a color pallet for site design.
+- [Gimp](https://www.gimp.org/)
+    - To optimise images for the site. 
+
+# Testing
+
+## Tests
+
+### [HTML Validator](https://validator.w3.org/)
+
+All HTML pages have been tested with the w3c validator and have passed with no errors.
+
+There were some warnings regarding redundant alt="" text for the images, but it was not applicaple to the text included.
+
+### [Jigsaw CSS Validator]
+
+CSS code passed through the validator with no errors.
+
+# Bugs & Fixes
+
+# Deployment
+
+GitHub pages was used for the first live version of this site. 
+
+# Credits
+
+1. W3Schools
+    - An invaluable resource for this project in terms of documentation and tutorials. 
+
+2. MDN Web Docs
+    - Another fantastic resource for this project in terms of documentation and tutorials. 
+
+3. Stack Overflow
+    - Amazing forums with great and detailed discussions, not only demonstrating how to write code, but why it should be written that way.
+
+4. Code Institute
+    - Fantastic learning platform and amazing tutors on slack that are always willing to help.
+
+5. Tutor Chris
+    - Excellent resource and a wealth of knowledge and insight. Lessons around CSS grid really added some invaluable knowledge and experience to my project. 
+
+[RETURN TO THE TOP](#CKC-Lifts)
+
+
+
+
+
 
