@@ -34,7 +34,7 @@ Mobile
     7. [Surface](#Surface)
         1. [Colors](#Colors)
         2. [Typography](#Typography)
-        3. [Images & Icons](#Images-and-Icons)
+        3. [Images & Icons](#Images-&-Icons)
 3. [Features](#Features)
     1. [Current Features](#Current-Features)
     2. [Future Features](#Future-Features)
