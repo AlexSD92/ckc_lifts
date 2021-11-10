@@ -13,10 +13,7 @@ Mobile
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-Reference-style:
-![alt text][logo]
-
-[logo]: ../assets/images/amiresponsive.PNG "Responsive Site Images"
+![Example of the website on multiple devices.](../assets/images/amiresponsive.PNG)
 
 
 
