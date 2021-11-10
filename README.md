@@ -13,7 +13,12 @@ Mobile
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
+Reference-style:
+![alt text][logo]
+
 [logo]: ../assets/images/amiresponsive.PNG "Responsive Site Images"
+
+
 
 # Table of contents
 1. [Why](#Why)
