@@ -13,7 +13,11 @@ Mobile
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-![Example of the website on multiple devices.](../assets/images/amiresponsive.PNG)
+![Example of the website on multiple devices.](/assets/images/amiresponsive.PNG)
+
+[Click here to view the site](https://alexsd92.github.io/laughing-broccoli/)
+
+[Click here to view the repository](https://github.com/AlexSD92/laughing-broccoli)
 
 
 
