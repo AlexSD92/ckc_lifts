@@ -1,5 +1,20 @@
 <!-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
 
+<!-- Viewports
+Desktop
+1600x992px scaled down to scale(0.3181)
+Laptop
+1280x802px scaled down to scale(0.277)
+Tablet
+768x1024px scaled down to scale(0.219)
+Mobile
+320x480px scaled down to scale(0.219) -->
+
+# CKC Lifts
+### By Alejandro Spara Dominguez
+
+[logo]: ../assets/images/amiresponsive.PNG "Responsive Site Images"
+
 # Table of contents
 1. [Why](#Why)
 
