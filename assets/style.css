@@ -363,12 +363,20 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 
 /* ↓↓↓ FOOTER ↓↓↓ */
 
+/* footer {
+    display: grid;
+    grid-template-columns:  repeat(5, 5vw);
+    grid-template-rows: auto;
+    column-gap: 10vw;
+} */
+
 footer ul {
     background-color: #008c93;
     padding: 2% 0;
     list-style: none;
     width: 100%;
     text-align: center;
+    margin-bottom: 0;
 }
 
 footer li {
@@ -379,7 +387,6 @@ footer li {
 footer a {
     color: whitesmoke;
     font-size: 3rem;
-    margin-top: auto;
     width: 50px;
 }
 
