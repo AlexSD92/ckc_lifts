@@ -13,7 +13,7 @@ body {
 h2 {
     color: #008c93;
     font-size: 3rem;
-    margin: 0 0 0 0;
+    margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     font-style: normal;
@@ -90,13 +90,15 @@ h2 {
     grid-area: navbar;
     list-style: none;
     text-align: center;
-    margin-top: 4%;
+    margin-top: 6%;
     padding: 0;
+    height: fit-content; 
+    /* changed the height to 40 px to minimize navbar container */
 }
 
 #navbar li {
     display: inline;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: 0;
 
 }
@@ -106,7 +108,7 @@ h2 {
     color: whitesmoke;
     padding: 1% 2.5% 1% 2.5%;
     border-radius: 25px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .active {
@@ -366,37 +368,13 @@ footer {
     text-align: center;
     padding: 2% 0;
     display: grid;
-    grid-template-columns:  1fr repeat(5, 20px) 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto;
-    column-gap: 5vw;
-    grid-template-areas: 
-    ". social1 social2 social3 social4 social5 .";
-}
-
-#social1 {
-    grid-area: social1;
-}
-
-#social2 {
-    grid-area: social2;
-}
-
-#social3 {
-    grid-area: social3;
-}
-
-#social4 {
-    grid-area: social4;
-}
-
-#social5 {
-    grid-area: social5;
 }
 
 footer a {
     color: whitesmoke;
     font-size: 3rem;
-    width: 50px;
 }
 
 /* ↑↑↑ FOOTER ↑↑↑ */
