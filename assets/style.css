@@ -371,14 +371,39 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 
 /* ↓↓↓ FOOTER ↓↓↓ */
 
-/* footer {
+footer {
+    background-color: #008c93;
+    text-align: center;
+    padding: 2% 0;
     display: grid;
-    grid-template-columns:  repeat(5, 5vw);
+    grid-template-columns:  1fr repeat(5, 20px) 1fr;
     grid-template-rows: auto;
-    column-gap: 10vw;
-} */
+    column-gap: 5vw;
+    grid-template-areas: 
+    ". social1 social2 social3 social4 social5 .";
+}
 
-footer ul {
+#social1 {
+    grid-area: social1;
+}
+
+#social2 {
+    grid-area: social2;
+}
+
+#social3 {
+    grid-area: social3;
+}
+
+#social4 {
+    grid-area: social4;
+}
+
+#social5 {
+    grid-area: social5;
+}
+
+/* footer ul {
     background-color: #008c93;
     padding: 2% 0;
     list-style: none;
@@ -390,7 +415,7 @@ footer ul {
 footer li {
     display: inline;
     margin: 0 3%;
-}
+} */
 
 footer a {
     color: whitesmoke;
