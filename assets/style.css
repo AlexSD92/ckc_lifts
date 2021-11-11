@@ -1,15 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Source+Sans+Pro&display=swap');
 
-/* font-family: 'Merriweather', serif;
-font-family: 'Source Sans Pro', sans-serif; */
-
-/* https://colorhunt.co/
-#FFF5FD - Background Color
-#005A8D - Logo Color & Fontawesome
-#005A8D - Heading Colors
-#93B5C6 - Section Colors & Card Colors
-#022E57 - Font Colors */
-
+/* ↓↓↓ GLOBAL FONT STYLING AND SPACING ↓↓↓ */
 
 body {
     background-color: lightgray;
@@ -28,27 +19,24 @@ h2 {
     font-style: normal;
 }
 
+/* ↑↑↑ GLOBAL FONT STYLING AND SPACING ↑↑↑ */
+
 /* ↓↓↓ LOGO AND NAVBAR ↓↓↓ */
 
 #normalheader {
     background-color: #008c93;
     height: auto;
     padding: 2% 0;
-    margin-bottom: 3.5vw;
+    margin-bottom: 50px;
 }
 
 #altheader {
     background-image: url("../assets/images/anticipate.jpg");
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: auto;
-    padding: 2% 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
     margin-bottom: 50px;
-}
-
-#altheader2 {
-    height: auto;
-    padding: 2% 0;
 }
 
 #logonavbar {
@@ -531,29 +519,14 @@ footer a {
 
 /* ↓↓↓ MEDIA QUERIES ↓↓↓ */
 
-/* https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp */
-
-/* Extra small devices (phones, 600px and down)
-@media only screen and (max-width: 600px) {...}
-
-Small devices (portrait tablets and large phones, 600px and up)
-@media only screen and (min-width: 600px) {...}
-
-Medium devices (landscape tablets, 768px and up)
-@media only screen and (min-width: 768px) {...}
-
-Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {...}
-
-Extra large devices (large laptops and desktops, 1200px and up)
-@media only screen and (min-width: 1200px) {...} */
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1100px) {
 
     #altheader {
-        height: auto;
-        background-size: 100% auto;
-        margin-bottom: 3.5vw;
+        background-image: url("../assets/images/anticipate.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin-bottom: 50px;
     }
     
     #logonavbar {
@@ -568,7 +541,6 @@ Extra large devices (large laptops and desktops, 1200px and up)
     }
     
     #tagline {
-        /* visibility: hidden; */
         padding: 1%;
         width: fit-content;
         background-color: rgb(201, 198, 198, 0.75);
@@ -684,18 +656,6 @@ Extra large devices (large laptops and desktops, 1200px and up)
     #vidcontainer2 {
         height: 500px;
     }
-    
-}
-
-@media only screen and (min-width: 750px) {
-
-}
-    
-@media only screen and (min-width: 600px) {
-
-}
-
-@media only screen and (max-width: 600px) {
     
 }
 
