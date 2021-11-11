@@ -405,20 +405,6 @@ footer {
     grid-area: social5;
 }
 
-/* footer ul {
-    background-color: #008c93;
-    padding: 2% 0;
-    list-style: none;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 0;
-}
-
-footer li {
-    display: inline;
-    margin: 0 3%;
-} */
-
 footer a {
     color: whitesmoke;
     font-size: 3rem;
@@ -562,7 +548,7 @@ Large devices (laptops/desktops, 992px and up)
 Extra large devices (large laptops and desktops, 1200px and up)
 @media only screen and (min-width: 1200px) {...} */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1000px) {
 
     #altheader {
         height: auto;
@@ -642,24 +628,6 @@ Extra large devices (large laptops and desktops, 1200px and up)
         column-count: 2;
     }
 
-    /* #gallery {
-        display: grid;
-        grid-template-columns: 3.5vw 1fr 3.5vw;
-        grid-template-rows: auto;
-        height: fit-content;
-        grid-template-areas:
-        ". img1 ."
-        ". img2 ."
-        ". img3 ."
-        ". img4 ."
-        ". img5 ."
-        ". img6 ."
-        ". img7 ."
-        ". img8 ."
-        ". img9 ."
-        ;
-    } */
-
     #plan {
         display: grid;
         grid-template-columns: 3.5vw 1fr 3.5vw;
@@ -716,6 +684,18 @@ Extra large devices (large laptops and desktops, 1200px and up)
     #vidcontainer2 {
         height: 500px;
     }
+    
+}
+
+@media only screen and (min-width: 750px) {
+
+}
+    
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (max-width: 600px) {
     
 }
 
