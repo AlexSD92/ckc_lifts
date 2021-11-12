@@ -69,6 +69,7 @@ h2 {
     margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 900;
+    word-wrap: break-word;
 }
 
 #logo {
@@ -559,31 +560,9 @@ footer a {
         ;
 
     }
-    
-    #tagline {
-        padding: 1%;
-        width: fit-content;
-        background-color: rgb(201, 198, 198, 0.75);
-        border-radius: 25px;
-    }
-    
-    #tagline p {
-        font-size: 1rem;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-    }
-    
-    #tagline h2 {
-        /* font-size: 1rem; */
-    }
 
-    #logo {
-        /* font-size: 3.25rem; */
-    }
-
-    #navbar li {
-        /* font-size: 1rem; */
+    #taglinecontainer {
+        visibility: hidden;
     }
 
     #navbar a {
