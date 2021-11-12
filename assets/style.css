@@ -52,7 +52,7 @@ h2 {
     margin: 125px auto 0 auto;
     padding: 1%;
     width: fit-content;
-    background-color: rgb(201, 198, 198, 0.75);
+    background-color: #008c9390;;
     border-radius: 25px;
 }
 
@@ -65,7 +65,7 @@ h2 {
 
 #tagline h2 {
     font-size: 4rem;
-    color: #FF736C;    ;
+    color: #FF736C;
     margin: 0;
     font-family: 'Merriweather', serif;
     font-weight: 900;
@@ -251,6 +251,7 @@ h2 {
 
 #plan {
     display: grid;
+    height: 100vh;
     grid-template-columns: 3.5vw repeat(3, 1fr) 3.5vw;
     grid-template-rows: auto;
     column-gap: 0;
@@ -353,16 +354,27 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 
 /* ↓↓↓ THANK YOU MESSAGE ↓↓↓ */
 
-.thankyoumessagecontainer {
+.thankyoubackimage {
+    background-image: url("../assets/images/groupgym2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.thankyoumessagecontainer {
+    text-align: center;
     height: 100vh;
 }
 
 .thankyoumessage {
+    
+    background-color: #008c9390;
+    color: #FF736C;
+    margin: 0 auto;
     text-align: center;
     height: fit-content;
-    color: #008c93;
-    justify-content: space-evenly;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 25px;
 }
 
 /* ↑↑↑ THANK YOU MESSAGE ↑↑↑ */
