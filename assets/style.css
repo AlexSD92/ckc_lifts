@@ -49,10 +49,11 @@ h2 {
 }
 
 #tagline {
-    margin: 125px auto 0 auto;
+    margin: 170px auto 0 auto;
     padding: 1%;
     width: fit-content;
-    background-color: #008c9390;;
+    /* background-color: #008c9390; */
+    background-color: #00000095;
     border-radius: 25px;
 }
 
