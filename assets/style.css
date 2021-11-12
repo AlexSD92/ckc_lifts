@@ -41,9 +41,8 @@ h2 {
 
 #logonavbar {
     display: grid;
-    height: 200px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100px;
+    grid-template-rows: fit-content;
     grid-template-areas:
     "logo navbar"
     ;
@@ -354,10 +353,18 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 
 /* ↓↓↓ THANK YOU MESSAGE ↓↓↓ */
 
+.thankyoumessagecontainer {
+    background-image: url("../assets/images/groupgym2.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 .thankyoumessage {
     text-align: center;
-    margin: 15% 0;
+    height: fit-content;
     color: #008c93;
+    justify-content: space-evenly;
 }
 
 /* ↑↑↑ THANK YOU MESSAGE ↑↑↑ */
