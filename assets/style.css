@@ -563,7 +563,7 @@ footer a {
     }
 
     #taglinecontainer {
-        visibility: hidden;
+        display: none;
     }
 
     #navbar a {
