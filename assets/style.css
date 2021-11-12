@@ -354,9 +354,7 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 /* ↓↓↓ THANK YOU MESSAGE ↓↓↓ */
 
 .thankyoumessagecontainer {
-    background-image: url("../assets/images/groupgym2.jpg") ;
-    background-repeat: no-repeat;
-    background-size: cover;
+
     height: 100vh;
 }
 
