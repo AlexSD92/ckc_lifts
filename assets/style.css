@@ -557,15 +557,15 @@ footer a {
     }
     
     #tagline h2 {
-        font-size: 1rem;   ;
+        /* font-size: 1rem; */
     }
 
     #logo {
-        font-size: 3.25rem;
+        /* font-size: 3.25rem; */
     }
 
     #navbar li {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     #navbar a {
