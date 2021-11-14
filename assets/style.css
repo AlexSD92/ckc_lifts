@@ -262,7 +262,7 @@ h2 {
 /* https://dev.to/alexantoniades/css-layout-centering-techniques--608 */
 
 .planh2 {
-    color: whitesmoke;
+    color: #f5f5f5;
     position: absolute;
     width: 100%;
     top: 50%;
@@ -271,7 +271,7 @@ h2 {
 }
 
 .planp {
-    color: whitesmoke;
+    color: #f5f5f5;
     position: absolute;
     width: 100%;
     text-align: center;
