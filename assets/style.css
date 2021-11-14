@@ -204,6 +204,12 @@ h2 {
     grid-area: contact;
 }
 
+#signupbackground {
+    background-image: url("../assets/images/groupgym2.jpg");
+    background-repeat: repeat-y;
+    background-size: 100vw auto;
+}
+
 #signup {
     grid-area: signup;
 }
@@ -598,7 +604,7 @@ footer a {
 
     #gallery {
         column-count: 2;
-    }
+    ;
 
     #plan {
         display: grid;
