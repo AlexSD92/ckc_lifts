@@ -635,7 +635,7 @@ footer a {
 
     #gallery {
         column-count: 2;
-    ;
+    }
 
     #plan {
         display: grid;
