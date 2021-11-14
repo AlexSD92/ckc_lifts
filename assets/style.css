@@ -392,20 +392,27 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 }
 
 .thankyoumessagecontainer {
-    text-align: center;
+    /* text-align: center; */
     height: 100vh;
+    position: relative;
 }
 
 .thankyoumessage {
     
     background-color: #008c9390;
     color: #FF736C;
-    margin: 0 auto;
     text-align: center;
     height: fit-content;
     width: fit-content;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     padding: 1%;
     border-radius: 25px;
+    position: absolute;
+
 }
 
 /* ↑↑↑ THANK YOU MESSAGE ↑↑↑ */
