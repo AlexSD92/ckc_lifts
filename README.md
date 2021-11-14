@@ -185,12 +185,14 @@ https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5
 
 ### Typography
 
-Considering the goal of the site is to be informative, two fonts were pricked. 
+Considering the goal of the site is to be informative, two fonts were picked. 
 
-The original fonts used were Anton and Open Sans, however it was later decided to use. 
+The original fonts used were Anton and Open Sans.
 
 https://fonts.google.com/specimen/Anton?query=anton
 https://fonts.google.com/specimen/Open+Sans?query=open+sans
+
+However, it was later decided to use Merriweather and Sourse Sans Pro for the headings and paragraphs, respectively.
 
 ### Images & Icons
 
@@ -264,8 +266,6 @@ https://unsplash.com/photos/t4DuoDHjxrQ
     - Provided a Remote repository for the application. Allowing for my coding to be backed up online as I go.
 - [Gitpod](https://gitpod.io/)
     -Development environment used to develop the code for this project.
-- [Stack Overflow](https://stackoverflow.com/)
-    - For general Queries and reassurance.
 - [Colorhunt](https://colorhunt.co/)
     - To select a color pallet for site design.
 - [Gimp](https://www.gimp.org/)
@@ -281,11 +281,39 @@ All HTML pages have been tested with the w3c validator and have passed with no e
 
 There were some warnings regarding redundant alt="" text for the images, but it was not applicaple to the text included.
 
-### [Jigsaw CSS Validator]
+### [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
 CSS code passed through the validator with no errors.
 
+### [Testing Against User Stories]
+
+- First Time User: 
+
+    1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
+        1. User arrives at the 'About Us' home/landing page and scrolls down to find more information about CKC Lifts, who the target audience is, and what else they can find on the site. User seeks more information and accesses 'Why CKC', 'Plans', or 'Contact', for more information.
+    2. As a user, I would like to view images of CKC's gym. 
+        1. User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
+    3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
+        1. User arrives at home page and clicks 'Plans' on the navigation bar. On 'Plans, user can clearly see 'Our Plans:' followed by 3 plan cards. User hovers over plan cards and can view concise information on what plans are available.
+    4. As a user, I like what I have seen on your site, but would like more information. 
+        1. User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    5. As a user, I like what I have seen on your site, and would like to be able to sign up.
+        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+
+- Returning User: 
+
+    1. I started out on the beginner plan and would like to move to intermediate. 
+        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    2. I started out on the intermediate plan and would like to move to advanced. 
+        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    3. I have a question about your gym after looking and your site. 
+        1. User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    4. I read the information your site had on squats and would like to view some images of your gym.
+        1. User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
+
 # Bugs & Fixes
+
+No bugs were found at the time of submission.
 
 # Deployment
 
@@ -305,7 +333,7 @@ GitHub pages was used for the first live version of this site.
 4. Code Institute
     - Fantastic learning platform and amazing tutors on slack that are always willing to help.
 
-5. Tutor Chris
+5. Chris Quinn, Mentor
     - Excellent resource and a wealth of knowledge and insight. Lessons around CSS grid really added some invaluable knowledge and experience to my project. 
 
 [RETURN TO THE TOP](#CKC-Lifts)
