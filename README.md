@@ -318,6 +318,20 @@ No bugs were found at the time of submission.
 
 GitHub pages was used for the first live version of this site. 
 
+## Getting Started
+
+1. Create a GitHub account. 
+2. Download GitPod extension. 
+3. Once the GitPod extension is installed, refresh GitHub. 
+4. Create a new repository, name it and give it a description. 
+5. Choose whether you want for the repository to be private or public. 
+6. Select to add a README file, as well as .gitignore. 
+7. Determine if you want a license. 
+8. Click 'Create Repository'.
+9. Click the green 'Gitpod' button to launch the development environment.
+10. Happy coding.
+
+
 ## GitHub Pages
 
 The code for this site has been deployed via GitHub pages. This was done at the very start of the project in order to be able to test across multiple devices and view a live version of the site throughout all stages of development. 
@@ -341,20 +355,20 @@ In order to make changes to ths code without affecting the original code, you mu
 1. Create a GitHub account (if you have one already, skip this step).
 2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
 3. Near the top right, click 'Fork'. 
-4. A copy of the repository will be available for you to use within your own repositories. 
+4. A copy of the repository will be available for you to use within your own remote repositories. 
 
 ## Cloning the Project
 
 1. Create a GitHub account (if you have one already, skip this step).
 2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
 3. Near the top, select 'Code' in the dropdown. 
-4. Copy the SHH address. 
-5. Open GitBash terminal.
-6. Navigate to directory where you would like to createa new directory. 
+4. Copy the HTTPS address.
+5. Download and open open [GitBash](https://gitforwindows.org/) terminal.
+6. Navigate to directory where you would like to create a new directory. 
 7. Create a new directory named 'CKC Lifts'.
 8. Change directory (CD) in to 'CKC Lifts'.
-9. Enter 'git clone SHH_ADDRESS'.
-10. GitBash will clone the 'CKC Lifts' repository in to your chosen directory.
+9. Enter 'git clone [insert HTTPS address here]'.
+10. GitBash will clone the 'CKC Lifts' repository in to your chosen local directory.
 
 # Credits
 
