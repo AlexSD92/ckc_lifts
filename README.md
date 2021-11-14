@@ -68,8 +68,6 @@ CKC lifts is oan informative website where the user can learn about how to perfo
 
 - First Time User: 
 
-- First Time User: 
-
     1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
     2. As a user, I would like to view images of CKC's gym. 
     3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
@@ -322,7 +320,41 @@ GitHub pages was used for the first live version of this site.
 
 ## GitHub Pages
 
+The code for this site has been deployed via GitHub pages. This was done at the very start of the project in order to be able to test across multiple devices and view a live version of the site throughout all stages of development. 
+
+In order to deploy on GitHub pages, you must: 
+
+1. Create a GitHub account (if you have one already, skip this step).
+2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
+3. Access the 'Settings' at the top right of the repository. 
+4. On the navigation menu on the left, click on 'Pages'. 
+5. On the 'Source' tab, ensure the dropdown that is selected is 'None'. 
+6. Select the 'main' branch, this may be called 'master'.
+7. Save.
+8. A URL will be generated for your site. 
+9. Process complete. 
+
 ## Forking Repository
+
+In order to make changes to ths code without affecting the original code, you must fork the repository. This means that you will be given a copy of the code for that moment in time. In order to do ths, you must: 
+
+1. Create a GitHub account (if you have one already, skip this step).
+2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
+3. Near the top right, click 'Fork'. 
+4. A copy of the repository will be available for you to use within your own repositories. 
+
+## Cloning the Project
+
+1. Create a GitHub account (if you have one already, skip this step).
+2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
+3. Near the top, select 'Code' in the dropdown. 
+4. Copy the SHH address. 
+5. Open GitBash terminal.
+6. Navigate to directory where you would like to createa new directory. 
+7. Create a new directory named 'CKC Lifts'.
+8. Change directory (CD) in to 'CKC Lifts'.
+9. Enter 'git clone SHH_ADDRESS'.
+10. GitBash will clone the 'CKC Lifts' repository in to your chosen directory.
 
 # Credits
 
