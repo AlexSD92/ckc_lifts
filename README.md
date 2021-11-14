@@ -43,9 +43,9 @@ Mobile
     1. [Tests](#Tests)
     2. [Bugs & Fixes](#Bugs-&-Fixes)
 6. [Deployment](#Deployment)
-    1. [GitHub Pages](#GitHub Pages)
-    2. [Forking Repository](#GitHub Pages)
-    3. [Cloning the project](#GitHub Pages)
+    1. [GitHub Pages](#GitHub-Pages)
+    2. [Forking Repository](#Forking-Repository)
+    3. [Cloning the project](#Cloning-the-Project)
 7. [Credits](#Credits)
 
 
