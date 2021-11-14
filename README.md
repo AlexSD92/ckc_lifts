@@ -68,18 +68,19 @@ CKC lifts is oan informative website where the user can learn about how to perfo
 
 - First Time User: 
 
+- First Time User: 
+
     1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
-    2. As a user, I am looking for information on squats. 
-    3. As a user, I am a serious lifter looking for a community of like-minded people.
-    4. As a user, I am an athlete wanting to improve my performance in my sport.
-    5. As a user, I am new to fitness and would like to start taking my fitness seriously.
-    6. As a user, I am very busy and need something that can effectively and efficiently improve my fitness. 
+    2. As a user, I would like to view images of CKC's gym. 
+    3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
+    4. As a user, I like what I have seen on your site, but would like more information.
+    5. As a user, I like what I have seen on your site, and would like to be able to sign up.
 
 - Returning User: 
 
-    1. I started out on the beginner plan and would like to move to intermediate. 
-    2. I started out on the intermediate plan and would like to move to advanced. 
-    3. I have a question about your gym after looking and your site. 
+    1. I started out on the beginner plan and would like to move to intermediate.
+    2. I started out on the intermediate plan and would like to move to advanced.
+    3. I have a question about your gym after looking and your site.
     4. I read the information your site had on squats and would like to view some images of your gym.
 
 - As the Website Creator
@@ -285,7 +286,7 @@ There were some warnings regarding redundant alt="" text for the images, but it 
 
 CSS code passed through the validator with no errors.
 
-### [Testing Against User Stories]
+### Testing Against User Stories
 
 - First Time User: 
 
@@ -318,6 +319,10 @@ No bugs were found at the time of submission.
 # Deployment
 
 GitHub pages was used for the first live version of this site. 
+
+## GitHub Pages
+
+## Forking Repository
 
 # Credits
 
