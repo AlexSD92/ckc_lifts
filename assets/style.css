@@ -203,6 +203,7 @@ h2 {
 
 #contact {
     grid-area: contact;
+    margin-bottom: 3.5vh;
 }
 
 #signup {
