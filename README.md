@@ -39,7 +39,7 @@
 
 # Why
 
-CKC lifts is oan informative website where the user can learn about how to perform a squat and also join the gym. Within the navbar, the user can click on gallery to view images of the gym, squats to learn more about squats, plans to learn more about the membership, and complete a contact us or sign up form. 
+CKC lifts is an informative website where the user can learn about how to perform a squat and also join the gym. Within the navbar, the user can click on gallery to view images of the gym, CKC Lifts to learn more about squats and other CKC lifts, plans to learn more about the membership, and complete a contact us or sign up form. 
 
 # UX
 
@@ -56,7 +56,7 @@ CKC lifts is oan informative website where the user can learn about how to perfo
 
 - First Time User: 
 
-    1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
+    1. As a user, I would like to learn more about CKC Lifts because I am looking to join a gym.
     2. As a user, I would like to view images of CKC's gym. 
     3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
     4. As a user, I like what I have seen on your site, but would like more information.
@@ -77,7 +77,7 @@ CKC lifts is oan informative website where the user can learn about how to perfo
 
 ## Strategy
 
-Create a site with a consistent color scheme, margins and fonts with relevant information and images that are easy to read and understand, respectively. 
+Use a consistent color scheme, spacing and fonts. Add relevant, interesting and easy to understand content. Include visually appealing, consistent images that are high quality. 
 
 ### Project Goals
 
@@ -115,32 +115,32 @@ The structure is intended to be minimalistic so that users can interact with an 
     - The logo will also act as a link back to the home page / landing page.
     - The landing page header will also include a background image for a more interesting visual experience.
 
-- About Us
+- About Us Page
 
     - Images and text under grid display.
     - Details about the gym, why a user should join us and who the target audience is.
 
-- Our Gym
+- Gallery Page
 
     - The gallery will contain images for the CKC Lifts gym.
     - The gallery will be responsive and images will be grouped in to columns and stack on top of one another to create a gallery effect.
     - Images will be high quality and optimised.
 
-- Squats
+- CKC Lifts Page
 
     - Will be the information point for users where they can find information about squats, such as history, benefits, etc. 
     - Images that will be high quality and optimised. 
     - Videos included as iframes detailing how to squat and squat variations.
     - Displayed as grid.
 
-- Plans
+- Plans Page
 
     - Membership and pricing page.
     - Information displayed on 3 flip cards. 
     - Front of the flip cards says the plan number.
     - Back of the flip cards details whether the plan is beginner, intermediate or advanced as well as the monthly pricing.
 
-- Sign Up
+- Contact Page
 
     - Contains 2 html forms, one contact form and another sign up form. 
     - All fields are required apart from checkboxes, which are noted as optional.
@@ -176,10 +176,13 @@ Considering the goal of the site is to be informative, two fonts were picked.
 
 The original fonts used were Anton and Open Sans.
 
-https://fonts.google.com/specimen/Anton?query=anton
-https://fonts.google.com/specimen/Open+Sans?query=open+sans
+1. [Anton](https://fonts.google.com/specimen/Anton?query=anton)
+2. [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
 
 However, it was later decided to use Merriweather and Sourse Sans Pro for the headings and paragraphs, respectively.
+
+1. [Merriweather](https://fonts.google.com/specimen/Merriweather?query=merr)
+2. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=Source+sans+pro)
 
 ### Images & Icons
 
@@ -189,30 +192,28 @@ https://fontawesome.com/
 
 Only stock images were used for the design of the site from https://unsplash.com/images/stock
 
-All image links below:
+All original image links below:
 
-https://unsplash.com/photos/7Li2duPduew
-https://unsplash.com/photos/3qZt1MwF4Zo
-https://unsplash.com/photos/TuzrzArccvc
-https://unsplash.com/photos/ZW_TNzH1KiA
-https://unsplash.com/photos/UDOpbhxNNU4
-https://unsplash.com/photos/saHd7qc-AMk
-https://unsplash.com/photos/g_1skq9Gl8o
-https://unsplash.com/photos/3qZt1MwF4Zo
-https://unsplash.com/photos/PCxkBX24sWo
-https://unsplash.com/photos/9MR78HGoflw
-https://unsplash.com/photos/RKfJhC_bF2A
-https://unsplash.com/photos/gNzqerPFtWs
-https://unsplash.com/photos/2e4lbLTqPIo
-https://unsplash.com/photos/U2q73PfHFpM
-https://unsplash.com/photos/VB5i6ZmXUoI
-https://unsplash.com/photos/gilCd9_Jjv0
-https://unsplash.com/photos/mFPJXEQfb9M
-https://unsplash.com/photos/wy_L8W0zcpI
-https://unsplash.com/photos/fqMu99l8sqo
-https://unsplash.com/photos/Pnm-9vBEQhk
-https://unsplash.com/photos/FodEsaNZs48
-https://unsplash.com/photos/t4DuoDHjxrQ
+1. https://unsplash.com/photos/7Li2duPduew 
+2. https://unsplash.com/photos/3qZt1MwF4Zo 
+3. https://unsplash.com/photos/TuzrzArccvc 
+4. https://unsplash.com/photos/ZW_TNzH1KiA 
+5. https://unsplash.com/photos/UDOpbhxNNU4 
+6. https://unsplash.com/photos/saHd7qc-AMk
+7. https://unsplash.com/photos/g_1skq9Gl8o
+8. https://unsplash.com/photos/PCxkBX24sWo
+9. https://unsplash.com/photos/9MR78HGoflw
+10. https://unsplash.com/photos/gNzqerPFtWs
+11. https://unsplash.com/photos/2e4lbLTqPIo
+12. https://unsplash.com/photos/U2q73PfHFpM
+13. https://unsplash.com/photos/VB5i6ZmXUoI
+14. https://unsplash.com/photos/gilCd9_Jjv0
+15. https://unsplash.com/photos/mFPJXEQfb9M
+16. https://unsplash.com/photos/Pnm-9vBEQhk
+17. https://unsplash.com/photos/FodEsaNZs48
+18. https://unsplash.com/photos/t4DuoDHjxrQ
+
+All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 
 # Features
 
@@ -223,6 +224,7 @@ https://unsplash.com/photos/t4DuoDHjxrQ
  - An information section with images talking about squats and how to perform them.
  - Embedded videos demonstrating how to squat and squat varieties. 
  - A plan/membership section where users can view the plans on flip cards, what experience level they are for, and how much the monthly memberships are.
+ - A contact page with an option between a contact form and sign up form.
  - A header containing a consistent logo and navigation bar that are responsive. 
  - A footer containing consistent favicons that will hyperlink users to social media on a new tab. 
  - Functioning internal links.
@@ -308,9 +310,11 @@ GitHub pages was used for the first live version of this site.
 
 ## Getting Started
 
+If you would like to copy the way I created this project, do the following: 
+
 1. Create a GitHub account. 
-2. Download GitPod extension. 
-3. Once the GitPod extension is installed, refresh GitHub. 
+2. Download Gitpod extension (you can log in using GitHub). 
+3. Once the Gitpod extension is installed, refresh GitHub. 
 4. Create a new repository, name it and give it a description. 
 5. Choose whether you want for the repository to be private or public. 
 6. Select to add a README file, as well as .gitignore. 
@@ -318,7 +322,6 @@ GitHub pages was used for the first live version of this site.
 8. Click 'Create Repository'.
 9. Click the green 'Gitpod' button to launch the development environment.
 10. Happy coding.
-
 
 ## GitHub Pages
 
@@ -345,18 +348,38 @@ In order to make changes to ths code without affecting the original code, you mu
 3. Near the top right, click 'Fork'. 
 4. A copy of the repository will be available for you to use within your own remote repositories. 
 
-## Cloning the Project
+## Cloning the Project Using Gitpod
 
 1. Create a GitHub account (if you have one already, skip this step).
-2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
+2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages) you would like to clone. 
+3. Near the top, select 'Code' in the dropdown. 
+4. Copy the HTTPS address.
+5. Open Gitpod.
+6. Navigate to directory where you would like to create a new directory using the terminal. 
+    1. Use pwd command to know where you currently are. 
+    2. Use cd followed by the directory name to change directories. 
+    3. use mkdir followed by a new directory name to create a new directory.
+7. Create a new directory (mkdir) named 'CKC Lifts'.
+8. Change directory (cd) in to 'CKC Lifts'.
+9. Enter 'git clone [insert HTTPS address here]'.
+10. GitBash will clone the 'CKC Lifts' repository in to your chosen directory.
+
+## Cloning the Project to a Local PC & Development Environment
+
+1. Create a GitHub account (if you have one already, skip this step).
+2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages) you would like to clone. 
 3. Near the top, select 'Code' in the dropdown. 
 4. Copy the HTTPS address.
 5. Download and open open [GitBash](https://gitforwindows.org/) terminal.
 6. Navigate to directory where you would like to create a new directory. 
-7. Create a new directory named 'CKC Lifts'.
-8. Change directory (CD) in to 'CKC Lifts'.
+    1. Use pwd command to know where you currently are. 
+    2. Use cd followed by the directory name to change directories. 
+    3. use mkdir followed by a new directory name to create a new directory.
+7. Create a new directory (mkdir) named 'CKC Lifts'.
+8. Change directory (cd) in to 'CKC Lifts'.
 9. Enter 'git clone [insert HTTPS address here]'.
 10. GitBash will clone the 'CKC Lifts' repository in to your chosen local directory.
+11. Open the repository using your preferred IDE, such as [Atom](https://atom.io/), [Visual Studio](https://code.visualstudio.com/), etc.
 
 # Credits
 
