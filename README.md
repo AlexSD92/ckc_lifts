@@ -385,6 +385,7 @@ In order to make changes to ths code without affecting the original code, you mu
 
 1. W3Schools
     - An invaluable resource for this project in terms of documentation and tutorials. 
+    - Borrowed code for [flip cards](https://www.w3schools.com/howto/howto_css_flip_card.asp) on pricing.html page. This can also be found commented in style.css.
 
 2. MDN Web Docs
     - Another fantastic resource for this project in terms of documentation and tutorials. 
