@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/b5faeb6ce2.js" crossorigin="anonymous"></script>
+    <meta name="description" content="A website about squatting">
+    <meta name="keywords" content="Squats, Gym, Fitness">
+    <meta name="author" content="Alex Dominguez">
+    <title>CKC Lifts - Contact</title>
+</head>
+
+<body>
+
+<div id="signupbackground">
+
+    <!-- ↓↓↓ logo and navbar section ↓↓↓ -->
+    <header id="normalheader">
+        <div id="logonavbar">
+            <h1 id="logo"><a href="index.html">CKC Lifts</a></h1>
+            <ul id="navbar">
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="whyckc.html">Why CKC</a></li>
+                <li><a href="pricing.html">Plans</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- <div id="tagline">
+            <p>Return to the</p>
+            <h2>FUNDAMENTALS</h2>
+        </div> -->
+    </header>
+    <!-- ↑↑↑ logo and navbar section ↑↑↑ -->
+
+    <section id="forms">
+
+        <div id="contact" class="formbackground">
+
+            <h2 class="contactform">Contact Us</h2>
+            <br>
+            <form action="thankyouquery.html">
+
+                <label for="fnamecontact">First Name:</label>
+                <br>
+                <input type="text" id="fnamecontact" name="fnamecontact" required>
+                <br><br>
+                <label for="lnamecontact">Last Name:</label>
+                <br>
+                <input type="text" id="lnamecontact" name="lnamecontact" required>
+                <br><br>
+                <label for="emailcontact">Email:</label>
+                <br>
+                <input type="email" id="emailcontact" name="emailcontact" required>
+                <br><br>
+                <label for="mobilecontact">Phone:</label>
+                <br>
+                <input type="tel" id="mobilecontact" name="mobilecontact" pattern="[0-9]{11}" required>
+                <br>
+                <small>Format: 01234567890</small>
+                <br><br><br>
+                <fieldset>
+                    <legend>Contact me by: </legend>
+                    <label> <input type="radio" id="emcontact" name="contactmecontact" value="Emailcontact" required> Email </label>
+                    <label> <input type="radio" id="phcontact" name="contactmecontact" value="Phonecontact" required> Phone </label>
+                    <label> <input type="radio" id="btcontact" name="contactmecontact" value="Bothcontact" required> Both </label>
+                </fieldset>
+                <br><br>
+                <label for="querycontact">Your query:</label>
+                <br>
+                <textarea name="querycontact" id="querycontact" cols="30" rows="10" required></textarea>
+                <br>
+                <br>
+                <br>
+                <input class="submit" type="submit" value="Submit">
+
+            </form>
+        
+        </div>
+
+        <div id="signup" class="formbackground">
+
+            <h2 class="contactform">Sign Up</h2>
+            <br>
+            <form action="thankyousignup.html">
+                
+                <label for="fname">First Name:</label>
+                <br>
+                <input type="text" id="fname" name="fname" required>
+                <br><br>
+                <label for="lname">Last Name:</label>
+                <br>
+                <input type="text" id="lname" name="lname" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="mobile">Phone:</label>
+                <br>
+                <input type="tel" id="mobile" name="mobile" pattern="[0-9]{11}" required>
+                <br>
+                <small>Format: 01234567890</small>
+                <br><br>
+                <!-- https://stackoverflow.com/questions/13273806/using-the-html-label-tag-with-radio-buttons -->
+                <br>
+                <fieldset>
+                    <legend>Contact me by:</legend>
+                    <label> <input type="radio" id="em" name="contactme" value="Email" required> Email</label>
+                    <label> <input type="radio" id="ph" name="contactme" value="Phone" required> Phone </label>
+                    <label><input type="radio" id="bt" name="contactme" value="Both" required> Both </label>
+                </fieldset>
+
+                <br><br>
+                <fieldset>
+                    <legend>How did you hear about us? <small>(optional)</small></legend>
+                    <label><input type="checkbox" id="facebook" name="social" value="Facebook">Facebook</label>
+                    <label><input type="checkbox" id="twitter" name="social" value="twitter">Twitter</label>
+                    <label><input type="checkbox" id="instagram" name="social" value="Instagram">Instagram</label>
+                    <br>
+                    <label><input type="checkbox" id="youtube" name="social" value="Youtube">Youtube</label>
+                    <label><input type="checkbox" id="vimeo" name="social" value="Vimeo">Vimeo</label>
+                    <label><input type="checkbox" id="wom" name="social" value="Word of Mouth">Word of Mouth</label>
+                    <label></label>
+                </fieldset>            
+                <br><br>
+                <fieldset>
+                    <legend>Which plan would you like?</legend>
+                    <label> <input type="radio" name="plan" id="3day" value="3 Day Plan" required> 3 Days per week </label>
+                    <br>
+                    <label> <input type="radio" name="plan" id="4day" value="4 Day Plan" required> 4 Days per week </label>
+                    <br>
+                    <label> <input type="radio" name="plan" id="5day" value="5 Day Plan" required> 5 Days per week </label>
+                </fieldset>
+                <br><br>
+                <input class="submit" type="submit" value="Submit">
+                
+
+            </form>
+        
+        </div>
+        
+    </section>
+
+    <!-- ↓↓↓ footer with fontawesome ↓↓↓ -->
+    <footer>
+        <a id="social1" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a id="social2" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+        <a id="social3" href="https://instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a id="social4" href="https://youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a>
+        <a id="social5" href="https://vimeo.com" target="_blank"><i class="fab fa-vimeo"></i></a>
+    </footer>
+
+    <!-- ↑↑↑ footer with fontawesome ↑↑↑ -->
+
+</div>
+    
+</body>
+</html>
