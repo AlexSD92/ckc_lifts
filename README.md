@@ -1,15 +1,5 @@
 <!-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
 
-<!-- Viewports
-Desktop
-1600x992px scaled down to scale(0.3181)
-Laptop
-1280x802px scaled down to scale(0.277)
-Tablet
-768x1024px scaled down to scale(0.219)
-Mobile
-320x480px scaled down to scale(0.219) -->
-
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
@@ -19,8 +9,6 @@ Mobile
 
 ## [Click here to view the repository](https://github.com/AlexSD92/laughing-broccoli)
   
-
-
 # Table of contents
 1. [Why](#Why)
 2. [UX](#UX)
