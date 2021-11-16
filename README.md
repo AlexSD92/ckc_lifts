@@ -224,6 +224,9 @@ All original image links below:
 16. https://unsplash.com/photos/Pnm-9vBEQhk
 17. https://unsplash.com/photos/FodEsaNZs48
 18. https://unsplash.com/photos/t4DuoDHjxrQ
+19. https://unsplash.com/photos/WvDYdXDzkhs
+20. https://unsplash.com/photos/FP7cfYPPUKM
+21. https://unsplash.com/photos/jO6vBWX9h9Y
 
 All edited images can be found [here](https://github.com/AlexSD92/ckc_lifts/tree/main/assets/images).
 
