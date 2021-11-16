@@ -261,8 +261,8 @@ All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 
 ## Languages
 
-- HTML5
-- CSS3
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Other Technologies, Frameworks & Libraries
 
@@ -406,17 +406,17 @@ In order to make changes to ths code without affecting the original code, you mu
 
 # Credits
 
-1. W3Schools
+1. [W3Schools](https://www.w3schools.com/)
     - An invaluable resource for this project in terms of documentation and tutorials. 
     - Borrowed code for [flip cards](https://www.w3schools.com/howto/howto_css_flip_card.asp) on pricing.html page. This can also be found commented in style.css.
 
-2. MDN Web Docs
+2. [MDN Web Docs](https://developer.mozilla.org/en-US/)
     - Another fantastic resource for this project in terms of documentation and tutorials. 
 
-3. Stack Overflow
+3. [Stack Overflow](https://stackoverflow.com/)
     - Amazing forums with great and detailed discussions, not only demonstrating how to write code, but why it should be written that way.
 
-4. Code Institute
+4. [Code Institute](https://codeinstitute.net/)
     - Fantastic learning platform and amazing tutors on slack that are always willing to help.
 
 5. Chris Quinn, Mentor
