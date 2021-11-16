@@ -16,7 +16,8 @@
 
 <div id="signupbackground">
 
-    <!-- ↓↓↓ logo and navbar section ↓↓↓ -->
+    <!-- ↓↓↓ LOGO AND NAVBAR SECTION ↓↓↓ -->
+
     <header id="normalheader">
         <div id="logonavbar">
             <h1 id="logo"><a href="index.html">CKC Lifts</a></h1>
@@ -28,18 +29,20 @@
                 <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-        
     </header>
-    <!-- ↑↑↑ logo and navbar section ↑↑↑ -->
+
+    <!-- ↑↑↑ LOGO AND NAVBAR SECTION ↑↑↑ -->
+
+    <!-- ↓↓↓ FORMs SECTION ↓↓↓ -->  
 
     <section id="forms">
 
-        <div id="contact" class="formbackground">
+        <!-- ↓↓↓ CONTACT FORM ↓↓↓ -->
 
+        <div id="contact" class="formbackground">
             <h2 class="contactform">Contact Us</h2>
             <br>
             <form action="thankyouquery.html">
-
                 <label for="fnamecontact">First Name:</label>
                 <br>
                 <input type="text" id="fnamecontact" name="fnamecontact" required>
@@ -72,17 +75,17 @@
                 <br>
                 <br>
                 <input class="submit" type="submit" value="Submit">
-
-            </form>
-        
+            </form>        
         </div>
 
-        <div id="signup" class="formbackground">
+        <!-- ↑↑↑ CONTACT FORM ↑↑↑ -->
 
+        <!-- ↓↓↓ SIGNUP FORM ↓↓↓ -->
+
+        <div id="signup" class="formbackground">
             <h2 class="contactform">Sign Up</h2>
             <br>
-            <form action="thankyousignup.html">
-                
+            <form action="thankyousignup.html">                
                 <label for="fname">First Name:</label>
                 <br>
                 <input type="text" id="fname" name="fname" required>
@@ -100,16 +103,13 @@
                 <input type="tel" id="mobile" name="mobile" pattern="[0-9]{11}" required>
                 <br>
                 <small>Format: 01234567890</small>
-                <br><br>
-                <!-- https://stackoverflow.com/questions/13273806/using-the-html-label-tag-with-radio-buttons -->
-                <br>
+                <br><br><br>
                 <fieldset>
                     <legend>Contact me by:</legend>
                     <label> <input type="radio" id="em" name="contactme" value="Email" required> Email</label>
                     <label> <input type="radio" id="ph" name="contactme" value="Phone" required> Phone </label>
                     <label><input type="radio" id="bt" name="contactme" value="Both" required> Both </label>
                 </fieldset>
-
                 <br><br>
                 <fieldset>
                     <legend>How did you hear about us? <small>(optional)</small></legend>
@@ -133,13 +133,16 @@
                 </fieldset>
                 <br><br>
                 <input class="submit" type="submit" value="Submit">
-                
-
-            </form>
-        
+            </form>        
         </div>
+
+        <!-- ↑↑↑ SIGNUP FORM ↑↑↑ -->
         
     </section>
+
+    <!-- ↑↑↑ FORMS SECTION ↑↑↑ -->    
+
+    <!-- ↓↓↓ LOCATION ↓↓↓ -->
 
     <section id="location">
         <p>
@@ -155,7 +158,9 @@
         </p>
     </section>
 
-    <!-- ↓↓↓ footer with fontawesome ↓↓↓ -->
+    <!-- ↑↑↑ LOCATION ↑↑↑ -->
+
+    <!-- ↓↓↓ FOOTER WITH FONTAWESOME ↓↓↓ -->
     <footer>
         <a id="social1" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a id="social2" href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
@@ -164,9 +169,10 @@
         <a id="social5" href="https://vimeo.com" target="_blank"><i class="fab fa-vimeo"></i></a>
     </footer>
 
-    <!-- ↑↑↑ footer with fontawesome ↑↑↑ -->
+    <!-- ↑↑↑ FOOTER WITH FONTAWESOME ↑↑↑ -->
 
 </div>
     
 </body>
+
 </html>
