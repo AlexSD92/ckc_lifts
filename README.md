@@ -39,7 +39,7 @@
 
 # Why
 
-CKC lifts is an informative website where the user can learn about how to perform a squat and also join the gym. Within the navbar, the user can click on gallery to view images of the gym, CKC Lifts to learn more about squats and other CKC lifts, plans to learn more about the membership, and complete a contact us or sign up form. 
+CKC Lifts is an informative website where the user can learn about how to perform a squat and also join the gym. Within the navbar, the user can click on 'Gallery' to view images of the gym, 'CKC Lifts' to learn more about squats, a CKC exercise, 'Plans' to learn more about the membership, and 'Contact' to complete a contact us or sign up form. 
 
 # UX
 
@@ -66,14 +66,14 @@ CKC lifts is an informative website where the user can learn about how to perfor
 
 - I started out on the beginner plan and would like to move to intermediate.
 - I started out on the intermediate plan and would like to move to advanced.
-- I have a question about your gym after looking and your site.
+- I have a question about your gym after looking at your site.
 - I read the information your site had on squats and would like to view some images of your gym.
 
 ### As the Website Creator
 
 - I want to make the site visually appealing and engaging. 
 - I want the site to be easy to navigate and straightforward.
-- I want for users to engage with the site and use the contact and sign up forms.
+- I want users to engage with the site and use the contact and sign up forms.
 
 ## Strategy
 
@@ -102,7 +102,7 @@ The first release will include:
  Features for future release:
 
 - A testimonial page. 
-- A discussions page.
+- A discussion page.
 - A live board detailing the time and location of our community socials.
 
 ## Structure
@@ -123,7 +123,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 ### Gallery Page
 
 - The gallery will contain images for the CKC Lifts gym.
-- The gallery will be responsive and images will be grouped in to columns and stack on top of one another to create a gallery effect.
+- The gallery will be responsive and images will be grouped into columns and stack on top of one another to create a gallery effect.
 - Images will be high quality and optimised.
 
 ### CKC Lifts Page
@@ -131,7 +131,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 - Will be the information point for users where they can find information about squats, such as history, benefits, etc. 
 - Images that will be high quality and optimised. 
 - Videos included as iframes detailing how to squat and squat variations.
-- Displayed as grid.
+- Displayed as a grid.
 
 ### Plans Page
 
@@ -144,8 +144,8 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 - Contains 2 html forms, one contact form and another sign up form. 
 - All fields are required apart from checkboxes, which are noted as optional.
-- After submitting, user is forwarded to a thank you page where they are made aware someone will be in touch.
-- Displayed as grid.
+- After submitting, the user is forwarded to a thank you page where they are made aware someone will be in touch.
+- Displayed as a grid.
 
 ### Thank You Pages
 
@@ -197,7 +197,7 @@ The original fonts used were Anton and Open Sans.
 1. [Anton](https://fonts.google.com/specimen/Anton?query=anton)
 2. [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
 
-However, it was later decided to use Merriweather and Sourse Sans Pro for the headings and paragraphs, respectively.
+However, it was later decided to use Merriweather and Source Sans Pro for the headings and paragraphs, respectively.
 
 1. [Merriweather](https://fonts.google.com/specimen/Merriweather?query=merr)
 2. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=Source+sans+pro)
@@ -275,7 +275,7 @@ All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 - [GitHub](https://github.com/)
     - Provided a Remote repository for the application. Allowing for my coding to be backed up online as I go.
 - [Gitpod](https://gitpod.io/)
-    -Development environment used to develop the code for this project.
+    - Development environment used to develop the code for this project.
 - [Colorhunt](https://colorhunt.co/)
     - To select a color pallet for site design.
 - [Gimp](https://www.gimp.org/)
@@ -291,7 +291,7 @@ All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 
 All HTML pages have been tested with the w3c validator and have passed with no errors.
 
-There were some warnings regarding redundant alt="" text for the images, but it was not applicaple to the text included.
+There were some warnings regarding redundant alt="" text for the images, but it was not applicable to the text included.
 
 ### [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/)
 
@@ -302,24 +302,24 @@ CSS code passed through the validator with no errors.
 - First Time User: 
 
 1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
-    - User arrives at the 'About Us' home/landing page and scrolls down to find more information about CKC Lifts, who the target audience is, and what else they can find on the site. User seeks more information and accesses 'Why CKC', 'Plans', or 'Contact', for more information.
+    - User arrives at the 'About Us' home/landing page and scrolls down to find more information about CKC Lifts, who the target audience is, and what else they can find on the site. The user seeks more information and accesses 'Why CKC', 'Plans', or 'Contact', for more information.
 2. As a user, I would like to view images of CKC's gym. 
-    - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
+    - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' the user is able to view member and equipment images of CKC Lifts.
 3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
-    - User arrives at home page and clicks 'Plans' on the navigation bar. On 'Plans, user can clearly see 'Our Plans:' followed by 3 plan cards. User hovers over plan cards and can view concise information on what plans are available.
+    - User arrives at the home page and clicks 'Plans' on the navigation bar. On 'Plans, user can clearly see 'Our Plans:' followed by 3 plan cards. User hovers over plan cards and can view concise information on what plans are available.
 4. As a user, I like what I have seen on your site, but would like more information. 
-    - User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 5. As a user, I like what I have seen on your site, and would like to be able to sign up.
-    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
 
 - Returning User: 
 
 1. I started out on the beginner plan and would like to move to intermediate. 
-    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
 2. I started out on the intermediate plan and would like to move to advanced. 
-    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
-3. I have a question about your gym after looking and your site. 
-    - User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+3. I have a question about your gym after looking at your site. 
+    - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 4. I read the information your site had on squats and would like to view some images of your gym.
     - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
 
@@ -328,23 +328,6 @@ CSS code passed through the validator with no errors.
 No bugs were found at the time of submission.
 
 # Deployment
-
-GitHub pages was used for the first live version of this site. 
-
-## Getting Started
-
-If you would like to copy the way I created this project, do the following: 
-
-1. Create a GitHub account. 
-2. Download Gitpod extension (you can log in using GitHub). 
-3. Once the Gitpod extension is installed, refresh GitHub. 
-4. Create a new repository, name it and give it a description. 
-5. Choose whether you want for the repository to be private or public. 
-6. Select to add a README file, as well as .gitignore. 
-7. Determine if you want a license. 
-8. Click 'Create Repository'.
-9. Click the green 'Gitpod' button to launch the development environment.
-10. Happy coding.
 
 ## GitHub Pages
 
@@ -362,9 +345,24 @@ In order to deploy on GitHub pages, you must:
 8. A URL will be generated for your site. 
 9. Process complete. 
 
+## Getting Started
+
+If you would like to copy my development environment for this project, do the following: 
+
+1. Create a GitHub account. 
+2. Download Gitpod extension (you can log in using GitHub). 
+3. Once the Gitpod extension is installed, refresh GitHub. 
+4. Create a new repository, name it and give it a description. 
+5. Choose whether you want for the repository to be private or public. 
+6. Select to add a README file, as well as .gitignore. 
+7. Determine if you want a license. 
+8. Click 'Create Repository'.
+9. Click the green 'Gitpod' button to launch the development environment.
+10. Happy coding.
+
 ## Forking Repository
 
-In order to make changes to ths code without affecting the original code, you must fork the repository. This means that you will be given a copy of the code for that moment in time. In order to do ths, you must: 
+In order to make changes to this code without affecting the original code, you must fork the repository. This means that you will be given a copy of the code for that moment in time. In order to do ths, you must: 
 
 1. Create a GitHub account (if you have one already, skip this step).
 2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages). 
@@ -378,8 +376,8 @@ In order to make changes to ths code without affecting the original code, you mu
 3. Near the top, select 'Code' in the dropdown. 
 4. Copy the HTTPS address.
 5. Open Gitpod.
-6. Navigate to directory where you would like to create a new directory using the terminal. 
-    - Use pwd command to know where you currently are. 
+6. Navigate to the directory where you would like to create a new directory using the terminal. 
+    - Use the pwd command to know where you currently are. 
     - Use cd followed by the directory name to change directories. 
     - use mkdir followed by a new directory name to create a new directory.
 7. Create a new directory (mkdir) named 'CKC Lifts'.
@@ -394,12 +392,12 @@ In order to make changes to ths code without affecting the original code, you mu
 3. Near the top, select 'Code' in the dropdown. 
 4. Copy the HTTPS address.
 5. Download and open open [GitBash](https://gitforwindows.org/) terminal.
-6. Navigate to directory where you would like to create a new directory. 
-    - Use pwd command to know where you currently are. 
+6. Navigate to the directory where you would like to create a new directory. 
+    - Use the pwd command to know where you currently are. 
     - Use cd followed by the directory name to change directories. 
     - use mkdir followed by a new directory name to create a new directory.
 7. Create a new directory (mkdir) named 'CKC Lifts'.
-8. Change directory (cd) in to 'CKC Lifts'.
+8. Change directory (cd) into 'CKC Lifts'.
 9. Enter 'git clone [insert HTTPS address here]'.
 10. GitBash will clone the 'CKC Lifts' repository in to your chosen local directory.
 11. Open the repository using your preferred IDE, such as [Atom](https://atom.io/), [Visual Studio](https://code.visualstudio.com/), etc.
