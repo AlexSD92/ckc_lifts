@@ -180,6 +180,11 @@ Wireframes for the site can be viewed below:
 
 The colors that are used for the site are shown below. [Colorhunt](https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5) was used to generate a color pallet. 
 
+- 008C93, used for header and footer backgrounds, as well as heading color
+- FF736C, used for tagline color
+- D3D3D3, used for body background color
+- F5F5F5, used as contrast color for text in logo, navbar, fontawesome, and where appropriate
+
 ![Color pallet used for the design of this website.](/assets/images/readme/colorpallet.PNG)
 
 ### Typography
@@ -198,11 +203,9 @@ However, it was later decided to use Merriweather and Sourse Sans Pro for the he
 
 ### Images & Icons
 
-Fontawesome icons were used for the footer of the site to direct users to social media pages. 
+[Fontawesome](https://fontawesome.com/) icons were used for the footer of the site to direct users to social media pages. 
 
-https://fontawesome.com/
-
-Only stock images were used for the design of the site from https://unsplash.com/images/stock
+Only stock images were used for the design of the site from [Unsplash](https://unsplash.com/images/stock)
 
 All original image links below:
 
@@ -297,27 +300,27 @@ CSS code passed through the validator with no errors.
 
 - First Time User: 
 
-    1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
-        1. User arrives at the 'About Us' home/landing page and scrolls down to find more information about CKC Lifts, who the target audience is, and what else they can find on the site. User seeks more information and accesses 'Why CKC', 'Plans', or 'Contact', for more information.
-    2. As a user, I would like to view images of CKC's gym. 
-        1. User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
-    3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
-        1. User arrives at home page and clicks 'Plans' on the navigation bar. On 'Plans, user can clearly see 'Our Plans:' followed by 3 plan cards. User hovers over plan cards and can view concise information on what plans are available.
-    4. As a user, I like what I have seen on your site, but would like more information. 
-        1. User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
-    5. As a user, I like what I have seen on your site, and would like to be able to sign up.
-        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+1. As a user, I would like to learn more about CKC lifts because I am looking to join a gym.
+    - User arrives at the 'About Us' home/landing page and scrolls down to find more information about CKC Lifts, who the target audience is, and what else they can find on the site. User seeks more information and accesses 'Why CKC', 'Plans', or 'Contact', for more information.
+2. As a user, I would like to view images of CKC's gym. 
+    - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
+3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
+    - User arrives at home page and clicks 'Plans' on the navigation bar. On 'Plans, user can clearly see 'Our Plans:' followed by 3 plan cards. User hovers over plan cards and can view concise information on what plans are available.
+4. As a user, I like what I have seen on your site, but would like more information. 
+    - User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+5. As a user, I like what I have seen on your site, and would like to be able to sign up.
+    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
 
 - Returning User: 
 
-    1. I started out on the beginner plan and would like to move to intermediate. 
-        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
-    2. I started out on the intermediate plan and would like to move to advanced. 
-        1. User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
-    3. I have a question about your gym after looking and your site. 
-        1. User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
-    4. I read the information your site had on squats and would like to view some images of your gym.
-        1. User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
+1. I started out on the beginner plan and would like to move to intermediate. 
+    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+2. I started out on the intermediate plan and would like to move to advanced. 
+    - User arrives at home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+3. I have a question about your gym after looking and your site. 
+    - User arrives at home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
+4. I read the information your site had on squats and would like to view some images of your gym.
+    - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
 
 # Bugs & Fixes
 
@@ -375,9 +378,9 @@ In order to make changes to ths code without affecting the original code, you mu
 4. Copy the HTTPS address.
 5. Open Gitpod.
 6. Navigate to directory where you would like to create a new directory using the terminal. 
-    1. Use pwd command to know where you currently are. 
-    2. Use cd followed by the directory name to change directories. 
-    3. use mkdir followed by a new directory name to create a new directory.
+    - Use pwd command to know where you currently are. 
+    - Use cd followed by the directory name to change directories. 
+    - use mkdir followed by a new directory name to create a new directory.
 7. Create a new directory (mkdir) named 'CKC Lifts'.
 8. Change directory (cd) in to 'CKC Lifts'.
 9. Enter 'git clone [insert HTTPS address here]'.
@@ -391,9 +394,9 @@ In order to make changes to ths code without affecting the original code, you mu
 4. Copy the HTTPS address.
 5. Download and open open [GitBash](https://gitforwindows.org/) terminal.
 6. Navigate to directory where you would like to create a new directory. 
-    1. Use pwd command to know where you currently are. 
-    2. Use cd followed by the directory name to change directories. 
-    3. use mkdir followed by a new directory name to create a new directory.
+    - Use pwd command to know where you currently are. 
+    - Use cd followed by the directory name to change directories. 
+    - use mkdir followed by a new directory name to create a new directory.
 7. Create a new directory (mkdir) named 'CKC Lifts'.
 8. Change directory (cd) in to 'CKC Lifts'.
 9. Enter 'git clone [insert HTTPS address here]'.
