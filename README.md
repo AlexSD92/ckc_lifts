@@ -56,24 +56,24 @@ CKC lifts is an informative website where the user can learn about how to perfor
 
 ### First Time User: 
 
-1. As a user, I would like to learn more about CKC Lifts because I am looking to join a gym.
-2. As a user, I would like to view images of CKC's gym. 
-3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
-4. As a user, I like what I have seen on your site, but would like more information.
-5. As a user, I like what I have seen on your site, and would like to be able to sign up.
+- As a user, I would like to learn more about CKC Lifts because I am looking to join a gym.
+- As a user, I would like to view images of CKC's gym. 
+- As a user, I would like to know how much it costs to join your gym and what plans you have available.
+- As a user, I like what I have seen on your site, but would like more information.
+- As a user, I like what I have seen on your site, and would like to be able to sign up.
 
 ### Returning User: 
 
-1. I started out on the beginner plan and would like to move to intermediate.
-2. I started out on the intermediate plan and would like to move to advanced.
-3. I have a question about your gym after looking and your site.
-4. I read the information your site had on squats and would like to view some images of your gym.
+- I started out on the beginner plan and would like to move to intermediate.
+- I started out on the intermediate plan and would like to move to advanced.
+- I have a question about your gym after looking and your site.
+- I read the information your site had on squats and would like to view some images of your gym.
 
 ### As the Website Creator
 
-1. I want to make the site visually appealing and engaging. 
-2. I want the site to be easy to navigate and straightforward.
-3. I want for users to engage with the site and use the contact and sign up forms.
+- I want to make the site visually appealing and engaging. 
+- I want the site to be easy to navigate and straightforward.
+- I want for users to engage with the site and use the contact and sign up forms.
 
 ## Strategy
 
