@@ -266,10 +266,11 @@ h2 {
     color: #008c93;
     font-size: 4rem;
     text-align: center;
-    margin-bottom: 3.5vw;
+    margin: 0 auto 3.5% auto;
     background-color: #00000095;
     padding: 15px;
     border-radius: 25px;
+    width: fit-content;
 }
 
 /* https://dev.to/alexantoniades/css-layout-centering-techniques--608 */
