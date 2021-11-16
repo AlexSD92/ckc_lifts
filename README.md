@@ -3,9 +3,9 @@
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-![Example of the website on multiple devices.](/assets/images/readme/amiresponsive.PNG)
+![Example of the website on multiple devices.](/assets/images/readme/amiresponsive.JPG)
 
-## [Click here to view the site](https://alexsd92.github.io/laughing-broccoli/)
+## [Click here to view the site](https://alexsd92.github.io/ckc_lifts/)
 
 ## [Click here to view the repository](https://github.com/AlexSD92/laughing-broccoli)
   
