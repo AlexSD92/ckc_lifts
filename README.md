@@ -54,26 +54,26 @@ CKC lifts is an informative website where the user can learn about how to perfor
 
 ## User Stories
 
-- First Time User: 
+### First Time User: 
 
-    1. As a user, I would like to learn more about CKC Lifts because I am looking to join a gym.
-    2. As a user, I would like to view images of CKC's gym. 
-    3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
-    4. As a user, I like what I have seen on your site, but would like more information.
-    5. As a user, I like what I have seen on your site, and would like to be able to sign up.
+1. As a user, I would like to learn more about CKC Lifts because I am looking to join a gym.
+2. As a user, I would like to view images of CKC's gym. 
+3. As a user, I would like to know how much it costs to join your gym and what plans you have available.
+4. As a user, I like what I have seen on your site, but would like more information.
+5. As a user, I like what I have seen on your site, and would like to be able to sign up.
 
-- Returning User: 
+### Returning User: 
 
-    1. I started out on the beginner plan and would like to move to intermediate.
-    2. I started out on the intermediate plan and would like to move to advanced.
-    3. I have a question about your gym after looking and your site.
-    4. I read the information your site had on squats and would like to view some images of your gym.
+1. I started out on the beginner plan and would like to move to intermediate.
+2. I started out on the intermediate plan and would like to move to advanced.
+3. I have a question about your gym after looking and your site.
+4. I read the information your site had on squats and would like to view some images of your gym.
 
-- As the Website Creator
+### As the Website Creator
 
-    1. I want to make the site visually appealing and engaging. 
-    2. I want the site to be easy to navigate and straightforward.
-    3. I want for users to engage with the site and use the contact and sign up forms.
+1. I want to make the site visually appealing and engaging. 
+2. I want the site to be easy to navigate and straightforward.
+3. I want for users to engage with the site and use the contact and sign up forms.
 
 ## Strategy
 
@@ -109,52 +109,52 @@ The first release will include:
 
 The structure is intended to be minimalistic so that users can interact with an engaging, but easy to use website. The design will be consistent across all pages apart from the landing page where the header will include a background image. If the user has previous experience navigating websites, they will be able to navigate this site. 
 
-- Header 
+### Header 
 
-    - The header will include both a logo and navigation bar.
-    - The logo will also act as a link back to the home page / landing page.
-    - The landing page header will also include a background image for a more interesting visual experience.
+- The header will include both a logo and navigation bar.
+- The logo will also act as a link back to the home page / landing page.
+- The landing page header will also include a background image for a more interesting visual experience.
 
-- About Us Page
+### About Us Page
 
-    - Images and text under grid display.
-    - Details about the gym, why a user should join us and who the target audience is.
+- Images and text under grid display.
+- Details about the gym, why a user should join us and who the target audience is.
 
-- Gallery Page
+### Gallery Page
 
-    - The gallery will contain images for the CKC Lifts gym.
-    - The gallery will be responsive and images will be grouped in to columns and stack on top of one another to create a gallery effect.
-    - Images will be high quality and optimised.
+- The gallery will contain images for the CKC Lifts gym.
+- The gallery will be responsive and images will be grouped in to columns and stack on top of one another to create a gallery effect.
+- Images will be high quality and optimised.
 
-- CKC Lifts Page
+### CKC Lifts Page
 
-    - Will be the information point for users where they can find information about squats, such as history, benefits, etc. 
-    - Images that will be high quality and optimised. 
-    - Videos included as iframes detailing how to squat and squat variations.
-    - Displayed as grid.
+- Will be the information point for users where they can find information about squats, such as history, benefits, etc. 
+- Images that will be high quality and optimised. 
+- Videos included as iframes detailing how to squat and squat variations.
+- Displayed as grid.
 
-- Plans Page
+### Plans Page
 
-    - Membership and pricing page.
-    - Information displayed on 3 flip cards. 
-    - Front of the flip cards says the plan number.
-    - Back of the flip cards details whether the plan is beginner, intermediate or advanced as well as the monthly pricing.
+- Membership and pricing page.
+- Information displayed on 3 flip cards. 
+- Front of the flip cards says the plan number.
+- Back of the flip cards details whether the plan is beginner, intermediate or advanced as well as the monthly pricing.
 
-- Contact Page
+### Contact Page
 
-    - Contains 2 html forms, one contact form and another sign up form. 
-    - All fields are required apart from checkboxes, which are noted as optional.
-    - After submitting, user is forwarded to a thank you page where they are made aware someone will be in touch.
-    - Displayed as grid.
+- Contains 2 html forms, one contact form and another sign up form. 
+- All fields are required apart from checkboxes, which are noted as optional.
+- After submitting, user is forwarded to a thank you page where they are made aware someone will be in touch.
+- Displayed as grid.
 
-- Thank You Pages
+### Thank You Pages
 
-    - Thanks the user for contacting us or for wanting to sign up.
-    - Informs the user that someone will be in contact shortly to discuss.
+- Thanks the user for contacting us or for wanting to sign up.
+- Informs the user that someone will be in contact shortly to discuss.
 
-- Footer
+### Footer
 
-    - Contains favicons that hyperlink to social media in a new tab.
+- Contains favicons that hyperlink to social media in a new tab.
 
 ## Skeleton
 
@@ -169,6 +169,7 @@ Wireframes for the site can be viewed below:
     - [Desktop 'Form'](/assets/images/readme/desktopform.png)
 
 - Mobile: 
+
     - [Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
     - [Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
     - [Mobile 'Form'](/assets/images/readme/mobileform.png)
