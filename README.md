@@ -3,7 +3,7 @@
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-![Example of the website on multiple devices.](/assets/images/amiresponsive.PNG)
+![Example of the website on multiple devices.](/assets/images/readme/amiresponsive.PNG)
 
 ## [Click here to view the site](https://alexsd92.github.io/laughing-broccoli/)
 
@@ -160,15 +160,27 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 ### Wireframes
 
+Wireframes for the site can be viewed below:
+
+- Desktop:
+
+    - [Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
+    - [Desktop 'Gallery'](/assets/images/readme/desktopgallery.png)
+    - [Desktop 'Form'](/assets/images/readme/desktopform.png)
+
+- Mobile: 
+    - [Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
+    - [Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
+    - [Mobile 'Form'](/assets/images/readme/mobileform.png)
+    - [Mobile 'Pricing'](/assets/images/readme/mobilepricing.png)
+
 ## Surface
 
 ### Colors
 
-The colors that are used for the site are shown below. 
+The colors that are used for the site are shown below. [Colorhunt](https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5) was used to generate a color pallet. 
 
-![Color pallet used for the design of this website.](/assets/images/colorpallet.PNG)
-
-https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5
+![Color pallet used for the design of this website.](/assets/images/readme/colorpallet.PNG)
 
 ### Typography
 
@@ -212,6 +224,8 @@ All original image links below:
 16. https://unsplash.com/photos/Pnm-9vBEQhk
 17. https://unsplash.com/photos/FodEsaNZs48
 18. https://unsplash.com/photos/t4DuoDHjxrQ
+
+All edited images can be found [here](https://github.com/AlexSD92/ckc_lifts/tree/main/assets/images).
 
 All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 
@@ -259,6 +273,8 @@ All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
     - To select a color pallet for site design.
 - [Gimp](https://www.gimp.org/)
     - To optimise images for the site. 
+- [Wire Flow Wireframe Design](https://play.google.com/store/apps/details?id=com.ludomade.blueprint&hl=en_GB&gl=US)
+    - To create the wireframes for this site. 
 
 # Testing
 
