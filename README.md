@@ -22,14 +22,14 @@
     7. [Surface](#Surface)
         1. [Colors](#Colors)
         2. [Typography](#Typography)
-        3. [Images & Icons](#Images-&-Icons)
+        3. [Images & Icons](#Images-and-Icons)
 3. [Features](#Features)
     1. [Current Features](#Current-Features)
     2. [Future Features](#Future-Features)
 4. [Technologies](#Technologies)
 5. [Testing](#Testing)
     1. [Tests](#Tests)
-    2. [Bugs & Fixes](#Bugs-&-Fixes)
+    2. [Bugs & Fixes](#Bugs-and-Fixes)
 6. [Deployment](#Deployment)
     1. [GitHub Pages](#GitHub-Pages)
     2. [Forking Repository](#Forking-Repository)
@@ -202,7 +202,7 @@ However, it was later decided to use Merriweather and Sourse Sans Pro for the he
 1. [Merriweather](https://fonts.google.com/specimen/Merriweather?query=merr)
 2. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=Source+sans+pro)
 
-### Images & Icons
+### Images and Icons
 
 [Fontawesome](https://fontawesome.com/) icons were used for the footer of the site to direct users to social media pages. 
 
@@ -323,7 +323,7 @@ CSS code passed through the validator with no errors.
 4. I read the information your site had on squats and would like to view some images of your gym.
     - User arrives at the home page and clicks 'Gallery' on the navigation bar. On 'Gallery' user is able to view member and equipment images of CKC Lifts.
 
-# Bugs & Fixes
+# Bugs and Fixes
 
 No bugs were found at the time of submission.
 
