@@ -32,8 +32,8 @@
     2. [Bugs & Fixes](#Bugs-and-Fixes)
 6. [Deployment](#Deployment)
     1. [GitHub Pages](#GitHub-Pages)
-    2. [Forking Repository](#Forking-Repository)
-    3. [Cloning the project](#Cloning-the-Project)
+    2. [Forking the Repository](#Forking-Repository)
+    3. [Cloning the Project Locally](#Cloning-the-Project-Locally)
 7. [Credits](#Credits)
 
 
@@ -387,7 +387,7 @@ In order to make changes to ths code without affecting the original code, you mu
 9. Enter 'git clone [insert HTTPS address here]'.
 10. GitBash will clone the 'CKC Lifts' repository in to your chosen directory.
 
-## Cloning the Project to a Local PC & Development Environment
+## Cloning the Project Locally
 
 1. Create a GitHub account (if you have one already, skip this step).
 2. Navigate to the [repository](https://github.com/AlexSD92/laughing-broccoli#GitHub-Pages) you would like to clone. 
