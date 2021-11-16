@@ -53,7 +53,6 @@ h2 {
     margin: 170px auto 0 auto;
     padding: 1%;
     width: fit-content;
-    /* background-color: #008c9390; */
     background-color: #00000095;
     border-radius: 25px;
 }
@@ -96,14 +95,12 @@ h2 {
     margin-top: 45px;
     padding: 0;
     height: fit-content; 
-    /* changed the height to 40 px to minimize navbar container */
 }
 
 #navbar li {
     display: inline;
     font-size: 1rem;
     padding: 0;
-
 }
 
 #navbar a {
@@ -252,15 +249,11 @@ h2 {
 
 /* ↓↓↓ PLANS ↓↓↓ */ 
 
-/* CSS CARD FORMATTING FROM https://www.w3schools.com/howto/howto_css_flip_card.asp */
-
 #backimage1 {
     background-image: url("../assets/images/groupgym.jpg");
     background-repeat: repeat-y;
     background-size: 100% auto;
 }
-
-/* how to format background image height https://developer.mozilla.org/en-US/docs/Web/CSS/background-size */
 
 #ourplans {
     color: #008c93;
@@ -272,8 +265,6 @@ h2 {
     border-radius: 25px;
     width: fit-content;
 }
-
-/* https://dev.to/alexantoniades/css-layout-centering-techniques--608 */
 
 .planh2 {
     color: #f5f5f5;
@@ -294,6 +285,8 @@ h2 {
     font-size: 1.5rem;
     margin: 0;
 }
+
+/* ↓↓↓ CSS CARD FORMATTING FROM https://www.w3schools.com/howto/howto_css_flip_card.asp ↓↓↓ */
 
 #plan {
     display: grid;
@@ -353,6 +346,8 @@ h2 {
     transform: rotateY(180deg);
   }
 
+  /* ↑↑↑ CSS CARD FORMATTING FROM https://www.w3schools.com/howto/howto_css_flip_card.asp ↑↑↑ */
+
   #plan1 {
       grid-area: plan1;
   }
@@ -375,12 +370,11 @@ h2 {
     background-size: contain;
 }
 
-/* Got the responsive gallery idea from 
-https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea */
-
 #gallerycontainer {
     margin-bottom: 3.5vw;
 }
+
+/* ↓↓↓ Responsive gallery code from https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea ↓↓↓*/
 
 #gallery {
     padding: 0 1vw;
@@ -396,6 +390,8 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
     border-radius: 25px;
 }
 
+/* ↑↑↑ Responsive gallery code from https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-and-css-fcb973f595ea ↑↑↑ */
+
 /* ↑↑↑ GALLERY FORMATTING ↑↑↑ */
 
 /* ↓↓↓ THANK YOU MESSAGE ↓↓↓ */
@@ -407,7 +403,6 @@ https://timnwells.medium.com/create-a-simple-responsive-image-gallery-with-html-
 }
 
 .thankyoumessagecontainer {
-    /* text-align: center; */
     height: 100vh;
     position: relative;
 }
@@ -470,7 +465,6 @@ footer a {
 #social5 {
     grid-area: social5;
 }
-
 
 /* ↑↑↑ FOOTER ↑↑↑ */
 
@@ -550,7 +544,7 @@ footer a {
     border-radius: 25px;
 }
 
-/* https://www.w3schools.com/howto/howto_css_responsive_iframes.asp */
+/* ↓↓↓ https://www.w3schools.com/howto/howto_css_responsive_iframes.asp ↓↓↓ */
 
 #vidcontainer1 {
     grid-area: vidcontainer1;
@@ -588,6 +582,8 @@ footer a {
     height: 100%;    
 }
 
+/* ↑↑↑ https://www.w3schools.com/howto/howto_css_responsive_iframes.asp ↑↑↑ */
+
 /* ↑↑↑ SQUAT INFORMATION ↑↑↑ */
 
 /* ↓↓↓ MEDIA QUERIES ↓↓↓ */
@@ -610,7 +606,6 @@ footer a {
         "logo"
         "navbar"
         ;
-
     }
 
     #taglinecontainer {
@@ -708,10 +703,6 @@ footer a {
         height: 500px;
     }
     
-}
-
-@media only screen and (max-width: 1100px) {
-
 }
 
 /* ↑↑↑ MEDIA QUERIES ↑↑↑ */
