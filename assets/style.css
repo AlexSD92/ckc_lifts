@@ -239,6 +239,15 @@ h2 {
     background-color: #f5f5f5;
 }
 
+#location {
+    background-color: #00000095;
+    color: #f5f5f5;
+    width: fit-content;
+    margin: 0 auto 3.5% auto;
+    padding: 15px;
+    border-radius: 25px;
+}
+
 /* ↑↑↑ FORMS ↑↑↑ */
 
 /* ↓↓↓ PLANS ↓↓↓ */ 
