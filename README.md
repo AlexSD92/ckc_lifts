@@ -426,7 +426,6 @@ In order to make changes to this code without affecting the original code, you m
 7. Chris Quinn, Mentor
     - Excellent resource and a wealth of knowledge and insight. Lessons around CSS grid really added some invaluable knowledge and experience to my project. 
 
-
 [RETURN TO THE TOP](#CKC-Lifts)
 
 
