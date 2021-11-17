@@ -1,7 +1,7 @@
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-![Example of the website on multiple devices.](/assets/images/readme/amiresponsive.JPG)
+![Example of the website on multiple devices.](/assets/images/readme/amiresponsive/amiresponsive.JPG)
 
 ## [Click here to view the site](https://alexsd92.github.io/ckc_lifts/)
 
@@ -111,17 +111,21 @@ The structure is intended to be minimalistic so that users can interact with an 
 - The header will include both a logo and navigation bar.
 - The logo will also act as a link back to the home page / landing page.
 - The landing page header will also include a background image for a more interesting visual experience.
+- ![Image of the Header](assets/images/readme/amiresponsive/amiresponsive.JPG)
 
 ### About Us Page
 
 - Images and text under grid display.
 - Details about the gym, why a user should join us and who the target audience is.
+- ![Image of the About Us Page](assets/images/readme/amiresponsive/amiresponsiveaboutus.JPG)
+
 
 ### Gallery Page
 
 - The gallery will contain images for the CKC Lifts gym.
 - The gallery will be responsive and images will be grouped into columns and stack on top of one another to create a gallery effect.
 - Images will be high quality and optimised.
+- ![Image of the Gallery](assets/images/readme/amiresponsive/amiresponsivegallery.jpg)
 
 ### CKC Lifts Page
 
@@ -129,6 +133,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 - Images that will be high quality and optimised. 
 - Videos included as iframes detailing how to squat and squat variations.
 - Displayed as a grid.
+- ![Image of CKC Lifts Page](assets/images/readme/amiresponsive/amiresponsiveckclifts.JPG)
 
 ### Plans Page
 
@@ -136,6 +141,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 - Information displayed on 3 flip cards. 
 - Front of the flip cards says the plan number.
 - Back of the flip cards details whether the plan is beginner, intermediate or advanced as well as the monthly pricing.
+- ![Image of Plan Page](assets/images/readme/amiresponsive/amiresponsiveplan.JPG)
 
 ### Contact Page
 
@@ -143,15 +149,19 @@ The structure is intended to be minimalistic so that users can interact with an 
 - All fields are required apart from checkboxes, which are noted as optional.
 - After submitting, the user is forwarded to a thank you page where they are made aware someone will be in touch.
 - Displayed as a grid.
+- ![Image of Contact Page](assets/images/readme/amiresponsive/amiresponsiveforms.JPG)
 
 ### Thank You Pages
 
 - Thanks the user for contacting us or for wanting to sign up.
 - Informs the user that someone will be in contact shortly to discuss.
+- ![Image of Thank You Page](assets/images/readme/amiresponsive/amiresponsivethankyou.JPG)
+
 
 ### Footer
 
 - Contains favicons that hyperlink to social media in a new tab.
+- ![Image of the Footer](assets/images/readme/amiresponsive/amiresponsivefooter.JPG)
 
 ## Skeleton
 
@@ -161,16 +171,16 @@ Wireframes for the site can be viewed below:
 
 - Desktop:
 
-    - [Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
-    - [Desktop 'Gallery'](/assets/images/readme/desktopgallery.png)
-    - [Desktop 'Form'](/assets/images/readme/desktopform.png)
+    - ![Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
+    - ![Desktop 'Gallery'](/assets/images/readme/desktopgallery.png)
+    - ![Desktop 'Form'](/assets/images/readme/desktopform.png)
 
 - Mobile: 
 
-    - [Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
-    - [Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
-    - [Mobile 'Form'](/assets/images/readme/mobileform.png)
-    - [Mobile 'Pricing'](/assets/images/readme/mobilepricing.png)
+    - ![Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
+    - ![Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
+    - ![Mobile 'Form'](/assets/images/readme/mobileform.png)
+    - ![Mobile 'Pricing'](/assets/images/readme/mobilepricing.png)
 
 ## Surface
 
