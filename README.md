@@ -417,8 +417,15 @@ In order to make changes to this code without affecting the original code, you m
 4. [Code Institute](https://codeinstitute.net/)
     - Fantastic learning platform and amazing tutors on slack that are always willing to help.
 
-5. Chris Quinn, Mentor
+5. [Squat University](https://www.youtube.com/channel/UCyPYQTT20IgzVw92LDvtClw)
+    - Great videos and information on squatting.
+
+6. [Critical Bench](https://www.youtube.com/channel/UC5efErrEnb4krh7dwJdj3RA)
+    - Interesting videos on a variety of exercise and exercise varieties. 
+
+7. Chris Quinn, Mentor
     - Excellent resource and a wealth of knowledge and insight. Lessons around CSS grid really added some invaluable knowledge and experience to my project. 
+
 
 [RETURN TO THE TOP](#CKC-Lifts)
 
