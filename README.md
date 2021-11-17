@@ -169,7 +169,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 Wireframes for the site can be viewed below:
 
-- Desktop:
+Desktop:
 
 #### Why CKC
 ![Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
@@ -178,7 +178,7 @@ Wireframes for the site can be viewed below:
 #### Form
 ![Desktop 'Form'](/assets/images/readme/desktopform.png)
 
-- Mobile: 
+Mobile: 
 
 #### Why CKC
 ![Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
