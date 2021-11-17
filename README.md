@@ -1,5 +1,3 @@
-<!-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet -->
-
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
@@ -35,7 +33,6 @@
     2. [Forking the Repository](#Forking-Repository)
     3. [Cloning the Project Locally](#Cloning-the-Project-Locally)
 7. [Credits](#Credits)
-
 
 # Why
 
