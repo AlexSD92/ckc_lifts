@@ -56,7 +56,7 @@ h2 {
 #logonavbar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: fit-content;
+    grid-template-rows: auto;
     grid-template-areas:
     "logo navbar"
     ;
@@ -447,7 +447,7 @@ footer {
     justify-content: space-around;
     padding: 2% 0;
     display: grid;
-    grid-template-columns: repeat(5, fit-content);
+    grid-template-columns: repeat(5, auto);
     grid-template-rows: auto;
     grid-template-areas: 
     "social1 social2 social3 social4 social5";
