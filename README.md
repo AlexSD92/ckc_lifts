@@ -161,7 +161,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 ### Footer
 
 - Contains favicons that hyperlink to social media in a new tab.
-- ![Image of the Footer](assets/images/readme/amiresponsive/amiresponsivefooter.JPG)
+![Image of the Footer](assets/images/readme/amiresponsive/amiresponsivefooter.JPG)
 
 ## Skeleton
 
@@ -171,15 +171,22 @@ Wireframes for the site can be viewed below:
 
 - Desktop:
 
+#### Why CKC
 ![Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
+#### Gallery
 ![Desktop 'Gallery'](/assets/images/readme/desktopgallery.png)
+#### Form
 ![Desktop 'Form'](/assets/images/readme/desktopform.png)
 
 - Mobile: 
 
+#### Why CKC
 ![Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
+#### Gallery
 ![Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
+#### Form
 ![Mobile 'Form'](/assets/images/readme/mobileform.png)
+#### Pricing
 ![Mobile 'Pricing'](/assets/images/readme/mobilepricing.png)
 
 ## Surface
