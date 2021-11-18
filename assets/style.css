@@ -378,7 +378,7 @@ h2 {
 /* ↓↓↓ GALLERY FORMATTING ↓↓↓ */
 
 #brickcontainer {
-    background-image: url("../assets/images/brick2.jpg");
+    background-image: url("../assets/images/brick.jpg");
     background-repeat: repeat-y;
     background-size: contain;
 }
