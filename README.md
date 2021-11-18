@@ -1,7 +1,7 @@
 # CKC Lifts
 ### By Alejandro Spara Dominguez
 
-![Example of the website on multiple devices.](/assets/images/readme/amiresponsive/amiresponsive.JPG)
+![Example of the website on multiple devices.](/assets/images/amiresponsive/amiresponsive.JPG)
 
 ## [Click here to view the site](https://alexsd92.github.io/ckc_lifts/)
 
@@ -111,13 +111,15 @@ The structure is intended to be minimalistic so that users can interact with an 
 - The header will include both a logo and navigation bar.
 - The logo will also act as a link back to the home page / landing page.
 - The landing page header will also include a background image for a more interesting visual experience.
-![Image of the Header](assets/images/readme/amiresponsive/amiresponsive.JPG)
+
+![Image of the Header](assets/images/amiresponsive/amiresponsive.JPG)
 
 ### About Us Page
 
 - Images and text under grid display.
 - Details about the gym, why a user should join us and who the target audience is.
-![Image of the About Us Page](assets/images/readme/amiresponsive/amiresponsiveaboutus.JPG)
+
+![Image of the About Us Page](assets/images/amiresponsive/amiresponsiveaboutus.JPG)
 
 
 ### Gallery Page
@@ -125,7 +127,8 @@ The structure is intended to be minimalistic so that users can interact with an 
 - The gallery will contain images for the CKC Lifts gym.
 - The gallery will be responsive and images will be grouped into columns and stack on top of one another to create a gallery effect.
 - Images will be high quality and optimised.
-![Image of the Gallery](assets/images/readme/amiresponsive/amiresponsivegallery.JPG)
+
+![Image of the Gallery](assets/images/amiresponsive/amiresponsivegallery.JPG)
 
 ### CKC Lifts Page
 
@@ -133,7 +136,8 @@ The structure is intended to be minimalistic so that users can interact with an 
 - Images that will be high quality and optimised. 
 - Videos included as iframes detailing how to squat and squat variations.
 - Displayed as a grid.
-![Image of CKC Lifts Page](assets/images/readme/amiresponsive/amiresponsiveckclifts.JPG)
+
+![Image of CKC Lifts Page](assets/images/amiresponsive/amiresponsiveckclifts.JPG)
 
 ### Plans Page
 
@@ -141,7 +145,8 @@ The structure is intended to be minimalistic so that users can interact with an 
 - Information displayed on 3 flip cards. 
 - Front of the flip cards says the plan number.
 - Back of the flip cards details whether the plan is beginner, intermediate or advanced as well as the monthly pricing.
-![Image of Plan Page](assets/images/readme/amiresponsive/amiresponsiveplan.JPG)
+
+![Image of Plan Page](assets/images/amiresponsive/amiresponsiveplan.JPG)
 
 ### Contact Page
 
@@ -149,19 +154,22 @@ The structure is intended to be minimalistic so that users can interact with an 
 - All fields are required apart from checkboxes, which are noted as optional.
 - After submitting, the user is forwarded to a thank you page where they are made aware someone will be in touch.
 - Displayed as a grid.
-![Image of Contact Page](assets/images/readme/amiresponsive/amiresponsiveforms.JPG)
+
+![Image of Contact Page](assets/images/amiresponsive/amiresponsiveforms.JPG)
 
 ### Thank You Pages
 
 - Thanks the user for contacting us or for wanting to sign up.
 - Informs the user that someone will be in contact shortly to discuss.
-![Image of Thank You Page](assets/images/readme/amiresponsive/amiresponsivethankyou.JPG)
+
+![Image of Thank You Page](assets/images/amiresponsive/amiresponsivethankyou.JPG)
 
 
 ### Footer
 
 - Contains favicons that hyperlink to social media in a new tab.
-![Image of the Footer](assets/images/readme/amiresponsive/amiresponsivefooter.JPG)
+
+![Image of the Footer](assets/images/amiresponsive/amiresponsivefooter.JPG)
 
 ## Skeleton
 
@@ -172,22 +180,22 @@ Wireframes for the site can be viewed below:
 Desktop:
 
 #### Why CKC
-![Desktop 'Why CKC'](/assets/images/readme/desktopwhyckc.png)
+![Desktop 'Why CKC'](/assets/images/skeleton/desktopwhyckc.png)
 #### Gallery
-![Desktop 'Gallery'](/assets/images/readme/desktopgallery.png)
+![Desktop 'Gallery'](/assets/images/skeleton/desktopgallery.png)
 #### Form
-![Desktop 'Form'](/assets/images/readme/desktopform.png)
+![Desktop 'Form'](/assets/images/skeleton/desktopform.png)
 
 Mobile: 
 
 #### Why CKC
-![Mobile 'Why CKC'](/assets/images/readme/mobilewhyckc.png)
+![Mobile 'Why CKC'](/assets/images/skeleton/mobilewhyckc.png)
 #### Gallery
-![Mobile 'Gallery'](/assets/images/readme/mobilegallery.png)
+![Mobile 'Gallery'](/assets/images/skeleton/mobilegallery.png)
 #### Form
-![Mobile 'Form'](/assets/images/readme/mobileform.png)
+![Mobile 'Form'](/assets/images/skeleton/mobileform.png)
 #### Pricing
-![Mobile 'Pricing'](/assets/images/readme/mobilepricing.png)
+![Mobile 'Pricing'](/assets/images/skeleton/mobilepricing.png)
 
 ## Surface
 
@@ -195,12 +203,12 @@ Mobile:
 
 The colors that are used for the site are shown below. [Colorhunt](https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5) was used to generate a color pallet. 
 
-- 008C93, used for header and footer backgrounds, as well as heading color
+- 008C93, used for header and footer backgrounds, and some headings
 - FF736C, used for tagline color
 - D3D3D3, used for body background color
 - F5F5F5, used as contrast color for text in logo, navbar, fontawesome, and where appropriate
 
-![Color pallet used for the design of this website.](/assets/images/readme/colorpallet.PNG)
+![Color pallet used for the design of this website.](/assets/images/skeleton/colorpallet.PNG)
 
 ### Typography
 
