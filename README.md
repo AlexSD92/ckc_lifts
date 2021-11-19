@@ -301,7 +301,9 @@ CSS code passed through the validator with no errors.
 
 ### Chrome Developer Tools Lighthouse
 
-Perfomance, accessibility, best practices and SEO passing with over 90% on all pages with the exception of the gallery page. The performance of the gallery page is in the range of 70-80% on mobile and 80-90% on desktop. This was improved from 40-50% on mobile and 50-60% on desktop after optimising images using Gimp. Further reductions in images size could have been made, however, the quality of the images was greatly reduced. 
+- Accessibility, best practices and SEO passing with over 90% on all pages. 
+- Performance passed with over 80% on all pages with the exception of the gallery page. 
+- The performance of the gallery page is in the range of 70-80% on mobile and 80-90% on desktop. This was improved from 40-50% on mobile and 50-60% on desktop after optimising images using Gimp. Further reductions in images size could have been made, however, the quality of the images was greatly reduced. 
 
 ### Testing Against User Stories
 
