@@ -3,9 +3,9 @@
 
 ![Example of the website on multiple devices.](/assets/images/amiresponsive/amiresponsive.JPG)
 
-## <a href="https://alexsd92.github.io/ckc_lifts/" action="_blank">Click here to view the site</a>
+## [Click here to view the site](https://alexsd92.github.io/ckc_lifts/)
 
-## <a href="https://github.com/AlexSD92/laughing-broccoli" action="_blank">Click here to view the repository</a>
+## [Click here to view the repository](https://github.com/AlexSD92/laughing-broccoli)
   
 # Table of contents
 1. [Why](#Why)
@@ -201,7 +201,7 @@ Mobile:
 
 ### Colors
 
-The colors that are used for the site are shown below. <a href="https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5" action="_blank">Colorhunt</a> was used to generate a color pallet. 
+The colors that are used for the site are shown below. [Colorhunt](https://colorhunt.co/palette/008c93ff736cd3d3d3f5f5f5) was used to generate a color pallet. 
 
 - 008C93, used for header and footer backgrounds, and some headings
 - FF736C, used for tagline color
@@ -216,19 +216,19 @@ Considering the goal of the site is to be informative, two fonts were picked.
 
 The original fonts used were Anton and Open Sans.
 
-1. <a href="https://fonts.google.com/specimen/Anton?query=anton" action="_blank">Anton</a>
-2. <a href="https://fonts.google.com/specimen/Open+Sans?query=open+sans" action="_blank">Open Sans</a>
+1. [Anton](https://fonts.google.com/specimen/Anton?query=anton)
+2. [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans)
 
 However, it was later decided to use Merriweather and Source Sans Pro for the headings and paragraphs, respectively.
 
-1. <a href="https://fonts.google.com/specimen/Merriweather?query=merr" target="_blank">Merriweather</a>
-2. <a href="https://fonts.google.com/specimen/Source+Sans+Pro?query=Source+sans+pro" target="_blank">Sans Serif Pro</a>
+1. [Merriweather](https://fonts.google.com/specimen/Merriweather?query=merr)
+2. [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro?query=Source+sans+pro)
 
 ### Images and Icons
 
-<a href="https://fontawesome.com/" action="_blank">Fontawesome</a> icons were used for the footer of the site to direct users to social media pages. 
+[Fontawesome](https://fontawesome.com/) icons were used for the footer of the site to direct users to social media pages. 
 
-Only stock images were used for the design of the site from <a href="https://unsplash.com/images/stock" target="_blank">Unsplash</a>
+Only stock images were used for the design of the site from [Unsplash](https://unsplash.com/images/stock).
 
 All original image links below:
 
@@ -256,7 +256,7 @@ All original image links below:
 
 All edited images can be found [here](https://github.com/AlexSD92/ckc_lifts/tree/main/assets/images).
 
-All images were optimised using <a href="https://www.gimp.org/" action="_blank">Gimp</a> version 2.10.28.
+All images were optimised using [Gimp](https://www.gimp.org/) version 2.10.28.
 
 # Features
 
