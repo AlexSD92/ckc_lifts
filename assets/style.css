@@ -260,6 +260,10 @@ h2 {
     border-radius: 25px;
 }
 
+#location h2 {
+    color: #008c93;
+}
+
 /* ↑↑↑ FORMS ↑↑↑ */
 
 /* ↓↓↓ PLANS ↓↓↓ */ 
