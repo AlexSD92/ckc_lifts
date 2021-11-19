@@ -175,27 +175,7 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 ### Wireframes
 
-Wireframes for the site can be viewed below:
-
-Desktop:
-
-#### Why CKC
-![Desktop 'Why CKC'](/assets/images/skeleton/desktopwhyckc.png)
-#### Gallery
-![Desktop 'Gallery'](/assets/images/skeleton/desktopgallery.png)
-#### Form
-![Desktop 'Form'](/assets/images/skeleton/desktopform.png)
-
-Mobile: 
-
-#### Why CKC
-![Mobile 'Why CKC'](/assets/images/skeleton/mobilewhyckc.png)
-#### Gallery
-![Mobile 'Gallery'](/assets/images/skeleton/mobilegallery.png)
-#### Form
-![Mobile 'Form'](/assets/images/skeleton/mobileform.png)
-#### Pricing
-![Mobile 'Pricing'](/assets/images/skeleton/mobilepricing.png)
+Wireframes for the site can be viewed [here](assets/images/skeleton/wireframes).
 
 ## Surface
 
