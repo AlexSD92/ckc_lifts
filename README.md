@@ -112,7 +112,8 @@ The structure is intended to be minimalistic so that users can interact with an 
 - The logo will also act as a link back to the home page / landing page.
 - The landing page header will also include a background image for a more interesting visual experience.
 
-![Image of the Header](assets/images/amiresponsive/amiresponsive.JPG)
+![Image of the Header Mobile](assets/images/amiresponsive/header.JPG)
+![Image of the header Mobile](assets/images/amiresponsive/headermobile.JPG)
 
 ### About Us Page
 
@@ -164,12 +165,12 @@ The structure is intended to be minimalistic so that users can interact with an 
 
 ![Image of Thank You Page](assets/images/amiresponsive/amiresponsivethankyou.JPG)
 
-
 ### Footer
 
 - Contains favicons that hyperlink to social media in a new tab.
 
-![Image of the Footer](assets/images/amiresponsive/amiresponsivefooter.JPG)
+![Image of the Footer Desktop](assets/images/amiresponsive/footer.JPG)
+![Image of the Footer Mobile](assets/images/amiresponsive/footermobil.JPG)
 
 ## Skeleton
 
