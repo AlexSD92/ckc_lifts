@@ -319,14 +319,14 @@ CSS code passed through the validator with no errors.
 4. As a user, I like what I have seen on your site, but would like more information. 
     - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 5. As a user, I like what I have seen on your site, and would like to be able to sign up.
-    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 
 - Returning User: 
 
 1. I started out on the beginner plan and would like to move to intermediate. 
-    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 2. I started out on the intermediate plan and would like to move to advanced. 
-    - User arrives at the home page and clicks 'Contact'. On contact, user can comlete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have succesfully sumbitted the form and that a member of CKC Lifts will be in contact to answer their query.
+    - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Sign Up' form and select which plan they would like to sign up to. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged that they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 3. I have a question about your gym after looking at your site. 
     - User arrives at the home page and clicks 'Contact'. On contact, user can complete the 'Contact Us' form with their query. User completes the form and is forwarded to a 'Thank You' page where it is acknowledged they have successfully submitted the form and that a member of CKC Lifts will be in contact to answer their query.
 4. I read the information your site had on squats and would like to view some images of your gym.
